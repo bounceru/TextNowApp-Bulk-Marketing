@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextNow Max - Account Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        body {
+            background-image: url('/static/progress_background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+        }
+        
+        .content-container {
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .account-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: rgba(50, 50, 50, 0.7);
+            border-radius: 5px;
+        }
+        
+        .account-section h4 {
+            color: #3498db;
+            font-size: 18px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .account-section h4 .badge {
+            font-size: 12px;
+        }
+        
+        .details-table {
+            width: 100%;
+        }
+        
+        .details-table td {
+            padding: 8px;
+            vertical-align: top;
+        }
+        
+        .details-table td:first-child {
+            font-weight: 500;
+            color: #aaa;
+            width: 40%;
+        }
+        
+        .details-table td:last-child {
+            color: white;
+        }
+        
+        .details-table tr:nth-child(even) {
+            background-color: rgba(40, 40, 40, 0.4);
+        }
+        
+        .health-good {
+            color: #2ecc71;
+        }
+        
+        .health-warning {
+            color: #f39c12;
+        }
+        
+        .health-danger {
+            color: #e74c3c;
+        }
+        
+        .activity-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .activity-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+        }
+        
+        .activity-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .activity-success {
+            color: #2ecc71;
+        }
+        
+        .activity-failure {
+            color: #e74c3c;
+        }
+        
+        .activity-date {
+            color: #95a5a6;
+            font-size: 0.85em;
+        }
+        
+        .message-form {
+            background-color: rgba(30, 30, 30, 0.7);
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .message-form textarea {
+            background-color: rgba(50, 50, 50, 0.7);
+            color: white;
+            border: 1px solid #444;
+        }
+        
+        .message-form textarea:focus {
+            background-color: rgba(60, 60, 60, 0.9);
+            color: white;
+            border-color: #3498db;
+        }
+        
+        .btn-primary {
+            background-color: #3498db;
+            border-color: #3498db;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        
+        .btn-success {
+            background-color: #2ecc71;
+            border-color: #2ecc71;
+        }
+        
+        .btn-success:hover {
+            background-color: #27ae60;
+            border-color: #27ae60;
+        }
+        
+        .btn-danger {
+            background-color: #e74c3c;
+            border-color: #e74c3c;
+        }
+        
+        .btn-danger:hover {
+            background-color: #c0392b;
+            border-color: #c0392b;
+        }
+        
+        #messageResult {
+            display: none;
+            margin-top: 15px;
+        }
+        
+        .nav-tabs {
+            border-bottom: 1px solid #444;
+        }
+        
+        .nav-tabs .nav-link {
+            color: #95a5a6;
+            background-color: transparent;
+            border: none;
+        }
+        
+        .nav-tabs .nav-link:hover {
+            color: white;
+            background-color: rgba(50, 50, 50, 0.5);
+            border-color: transparent;
+        }
+        
+        .nav-tabs .nav-link.active {
+            color: white;
+            background-color: rgba(52, 152, 219, 0.3);
+            border-color: #3498db #3498db transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container content-container">
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <h2>
+                    <i class="fas fa-user-circle mr-2"></i> 
+                    Account: {{ account.username }}
+                    {% if account.status == 'active' %}
+                        <span class="badge badge-success">Active</span>
+                    {% elif account.status == 'warning' %}
+                        <span class="badge badge-warning">Warning</span>
+                    {% elif account.status == 'flagged' %}
+                        <span class="badge badge-danger">Flagged</span>
+                    {% elif account.status == 'suspended' %}
+                        <span class="badge badge-secondary">Suspended</span>
+                    {% elif account.status == 'banned' %}
+                        <span class="badge badge-dark">Banned</span>
+                    {% endif %}
+                </h2>
+                <p class="text-muted">
+                    {{ account.phone_number or 'No phone number' }} 
+                    {% if account.area_code %}
+                        (Area Code: {{ account.area_code }})
+                    {% endif %}
+                </p>
+            </div>
+            <div class="col-md-4 text-right">
+                <a href="/edit-account/{{ account.id }}" class="btn btn-primary">
+                    <i class="fas fa-edit"></i> Edit Account
+                </a>
+                <button class="btn btn-danger ml-2" data-toggle="modal" data-target="#deleteModal">
+                    <i class="fas fa-trash-alt"></i> Delete
+                </button>
+            </div>
+        </div>
+        
+        <ul class="nav nav-tabs mb-4" id="accountTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="details-tab" data-toggle="tab" href="#details" role="tab">
+                    <i class="fas fa-info-circle"></i> Account Details
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="activity-tab" data-toggle="tab" href="#activity" role="tab">
+                    <i class="fas fa-history"></i> Activity History
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="health-tab" data-toggle="tab" href="#health" role="tab">
+                    <i class="fas fa-heartbeat"></i> Health Checks
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="messaging-tab" data-toggle="tab" href="#messaging" role="tab">
+                    <i class="fas fa-sms"></i> Send Message
+                </a>
+            </li>
+        </ul>
+        
+        <div class="tab-content" id="accountTabContent">
+            <!-- Account Details Tab -->
+            <div class="tab-pane fade show active" id="details" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="account-section">
+                            <h4>
+                                <span><i class="fas fa-key"></i> Login Information</span>
+                            </h4>
+                            <table class="details-table">
+                                <tr>
+                                    <td>Username/Email:</td>
+                                    <td>{{ account.username }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Password:</td>
+                                    <td>
+                                        <span id="passwordField">••••••••</span>
+                                        <button class="btn btn-sm btn-outline-light ml-2" onclick="togglePassword()">
+                                            <i class="fas fa-eye" id="passwordToggleIcon"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Creation Method:</td>
+                                    <td>{{ account.creation_method|capitalize }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        <div class="account-section">
+                            <h4>
+                                <span><i class="fas fa-phone"></i> Phone Details</span>
+                            </h4>
+                            <table class="details-table">
+                                <tr>
+                                    <td>Phone Number:</td>
+                                    <td>{{ account.phone_number or 'Not assigned' }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Area Code:</td>
+                                    <td>{{ account.area_code or 'Unknown' }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        <div class="account-section">
+                            <h4>
+                                <span><i class="fas fa-user"></i> Profile Information</span>
+                            </h4>
+                            <table class="details-table">
+                                <tr>
+                                    <td>Full Name:</td>
+                                    <td>{{ account.name or 'Not provided' }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td>{{ account.email or 'Not provided' }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Birth Date:</td>
+                                    <td>{{ account.birth_date or 'Not provided' }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="account-section">
+                            <h4>
+                                <span><i class="fas fa-network-wired"></i> IP & Device Information</span>
+                            </h4>
+                            <table class="details-table">
+                                <tr>
+                                    <td>Registration IP:</td>
+                                    <td>{{ account.registration_ip or 'Unknown' }}</td>
+                                </tr>
+                                <tr>
+                                    <td>IP Family/Provider:</td>
+                                    <td>{{ account.ip_family or 'Unknown' }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Browser Fingerprint:</td>
+                                    <td>{{ account.browser_fingerprint or 'Unknown' }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Device Fingerprint:</td>
+                                    <td>{{ account.device_fingerprint or 'Unknown' }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        <div class="account-section">
+                            <h4>
+                                <span><i class="fas fa-calendar-alt"></i> Dates & Usage</span>
+                            </h4>
+                            <table class="details-table">
+                                <tr>
+                                    <td>Created At:</td>
+                                    <td>{{ account.created_at }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Last Login:</td>
+                                    <td>{{ account.last_login or 'Never' }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Last Message Sent:</td>
+                                    <td>{{ account.last_message_sent or 'Never' }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Usage Count:</td>
+                                    <td>{{ account.usage_count }} messages sent</td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        <div class="account-section">
+                            <h4>
+                                <span><i class="fas fa-heartbeat"></i> Health & Status</span>
+                                {% if account.health_score >= 80 %}
+                                    <span class="badge badge-success">Health: {{ account.health_score }}%</span>
+                                {% elif account.health_score >= 50 %}
+                                    <span class="badge badge-warning">Health: {{ account.health_score }}%</span>
+                                {% else %}
+                                    <span class="badge badge-danger">Health: {{ account.health_score }}%</span>
+                                {% endif %}
+                            </h4>
+                            <div class="progress mb-3" style="height: 25px; background-color: rgba(30, 30, 30, 0.7);">
+                                {% if account.health_score >= 80 %}
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: {{ account.health_score }}%">
+                                        {{ account.health_score }}%
+                                    </div>
+                                {% elif account.health_score >= 50 %}
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: {{ account.health_score }}%">
+                                        {{ account.health_score }}%
+                                    </div>
+                                {% else %}
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: {{ account.health_score }}%">
+                                        {{ account.health_score }}%
+                                    </div>
+                                {% endif %}
+                            </div>
+                            <table class="details-table">
+                                <tr>
+                                    <td>Status:</td>
+                                    <td>
+                                        {% if account.status == 'active' %}
+                                            <span class="health-good">Active</span>
+                                        {% elif account.status == 'warning' %}
+                                            <span class="health-warning">Warning</span>
+                                        {% elif account.status == 'flagged' %}
+                                            <span class="health-danger">Flagged</span>
+                                        {% elif account.status == 'suspended' %}
+                                            <span class="health-danger">Suspended</span>
+                                        {% elif account.status == 'banned' %}
+                                            <span class="health-danger">Banned</span>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Next Check:</td>
+                                    <td>{{ account.next_check_time or 'Not scheduled' }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="account-section">
+                    <h4><i class="fas fa-sticky-note"></i> Notes</h4>
+                    <div class="p-3">
+                        {% if account.notes %}
+                            {{ account.notes|nl2br }}
+                        {% else %}
+                            <em>No notes available</em>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Activity History Tab -->
+            <div class="tab-pane fade" id="activity" role="tabpanel">
+                <div class="account-section">
+                    <h4><i class="fas fa-history"></i> Recent Activity</h4>
+                    
+                    {% if account.recent_activity %}
+                        <ul class="activity-list">
+                            {% for activity in account.recent_activity %}
+                                <li>
+                                    {% if activity.success %}
+                                        <i class="fas fa-check-circle activity-success mr-2"></i>
+                                    {% else %}
+                                        <i class="fas fa-times-circle activity-failure mr-2"></i>
+                                    {% endif %}
+                                    
+                                    <strong>{{ activity.type|replace('_', ' ')|capitalize }}</strong>
+                                    {% if activity.details %}
+                                        - {{ activity.details }}
+                                    {% endif %}
+                                    
+                                    <div class="activity-date">
+                                        <i class="far fa-clock mr-1"></i> {{ activity.date }}
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        <p class="text-center"><em>No activity recorded for this account</em></p>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <!-- Health Checks Tab -->
+            <div class="tab-pane fade" id="health" role="tabpanel">
+                <div class="account-section">
+                    <h4><i class="fas fa-heartbeat"></i> Health Check History</h4>
+                    
+                    {% if account.health_checks %}
+                        <div class="table-responsive">
+                            <table class="table table-dark table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Check Type</th>
+                                        <th>Status</th>
+                                        <th>Score</th>
+                                        <th>Details</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for check in account.health_checks %}
+                                        <tr>
+                                            <td>{{ check.date }}</td>
+                                            <td>{{ check.type|replace('_', ' ')|capitalize }}</td>
+                                            <td>
+                                                {% if check.status == 'pass' %}
+                                                    <span class="health-good">Pass</span>
+                                                {% elif check.status == 'warning' %}
+                                                    <span class="health-warning">Warning</span>
+                                                {% else %}
+                                                    <span class="health-danger">Fail</span>
+                                                {% endif %}
+                                            </td>
+                                            <td>{{ check.score }}%</td>
+                                            <td>{{ check.details or '-' }}</td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    {% else %}
+                        <p class="text-center"><em>No health checks recorded for this account</em></p>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <!-- Send Message Tab -->
+            <div class="tab-pane fade" id="messaging" role="tabpanel">
+                <div class="account-section">
+                    <h4>
+                        <i class="fas fa-sms"></i> Send Message from this Account
+                        {% if account.phone_number %}
+                            <span class="badge badge-info">From: {{ account.phone_number }}</span>
+                        {% endif %}
+                    </h4>
+                    
+                    {% if account.status == 'active' or account.status == 'warning' %}
+                        <form id="messageForm" class="message-form">
+                            <div class="form-group">
+                                <label for="toNumber">To Phone Number <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="toNumber" name="to_number" required
+                                       placeholder="Enter recipient phone number (+1XXXXXXXXXX)">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="messageText">Message <span class="text-danger">*</span></label>
+                                <textarea class="form-control" id="messageText" name="message" rows="4" required
+                                          placeholder="Enter your message text here"></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="imageFile">Image (Optional)</label>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="imageFile" name="image" accept="image/*">
+                                    <label class="custom-file-label" for="imageFile">Choose image...</label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="multimediaFile">Other Multimedia (Optional)</label>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="multimediaFile" name="multimedia">
+                                    <label class="custom-file-label" for="multimediaFile">Choose file...</label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group text-center mt-4">
+                                <button type="submit" class="btn btn-success btn-lg">
+                                    <i class="fas fa-paper-plane"></i> Send Message
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <div id="messageResult" class="alert" role="alert"></div>
+                    {% else %}
+                        <div class="alert alert-warning">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            This account is currently {{ account.status }} and cannot send messages.
+                            Please activate the account first.
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Delete Confirmation Modal -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirm Account Deletion</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to delete this account?</p>
+                    <p><strong>Username:</strong> {{ account.username }}</p>
+                    <p><strong>Phone Number:</strong> {{ account.phone_number or 'None' }}</p>
+                    <p class="text-danger">This action cannot be undone.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger" onclick="deleteAccount({{ account.id }})">
+                        Delete Account
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // For the file input custom styling
+        $('.custom-file-input').on('change', function() {
+            let fileName = $(this).val().split('\\').pop();
+            $(this).next('.custom-file-label').html(fileName || 'Choose file...');
+        });
+        
+        // Toggle password visibility
+        function togglePassword() {
+            const passwordField = document.getElementById('passwordField');
+            const passwordToggleIcon = document.getElementById('passwordToggleIcon');
+            
+            if (passwordField.textContent === '••••••••') {
+                passwordField.textContent = '{{ account.password }}';
+                passwordToggleIcon.classList.remove('fa-eye');
+                passwordToggleIcon.classList.add('fa-eye-slash');
+            } else {
+                passwordField.textContent = '••••••••';
+                passwordToggleIcon.classList.remove('fa-eye-slash');
+                passwordToggleIcon.classList.add('fa-eye');
+            }
+        }
+        
+        // Send message from this account
+        $(document).ready(function() {
+            $('#messageForm').on('submit', function(e) {
+                e.preventDefault();
+                
+                const formData = new FormData(this);
+                
+                // Show loading state
+                $('#messageResult')
+                    .removeClass('alert-success alert-danger')
+                    .addClass('alert-info')
+                    .html('<i class="fas fa-spinner fa-spin"></i> Sending message...')
+                    .show();
+                
+                $.ajax({
+                    url: '/send-message/{{ account.id }}',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        if (response.success) {
+                            $('#messageResult')
+                                .removeClass('alert-info alert-danger')
+                                .addClass('alert-success')
+                                .html('<i class="fas fa-check-circle"></i> ' + response.message);
+                                
+                            // Reset form
+                            $('#messageForm')[0].reset();
+                            $('.custom-file-label').html('Choose file...');
+                        } else {
+                            $('#messageResult')
+                                .removeClass('alert-info alert-success')
+                                .addClass('alert-danger')
+                                .html('<i class="fas fa-times-circle"></i> ' + response.error);
+                        }
+                    },
+                    error: function() {
+                        $('#messageResult')
+                            .removeClass('alert-info alert-success')
+                            .addClass('alert-danger')
+                            .html('<i class="fas fa-times-circle"></i> An error occurred while sending the message. Please try again.');
+                    }
+                });
+            });
+        });
+        
+        // Delete account
+        function deleteAccount(accountId) {
+            $.ajax({
+                url: '/delete-account/' + accountId,
+                type: 'POST',
+                success: function(response) {
+                    if (response.success) {
+                        // Redirect to dashboard
+                        window.location.href = '/dashboard';
+                    } else {
+                        alert('Error: ' + response.error);
+                        $('#deleteModal').modal('hide');
+                    }
+                },
+                error: function() {
+                    alert('An error occurred while deleting the account.');
+                    $('#deleteModal').modal('hide');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

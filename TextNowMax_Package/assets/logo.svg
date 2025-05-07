@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+  <!-- Background -->
+  <rect width="600" height="200" fill="#000000"/>
+  
+  <!-- PB Logo -->
+  <g transform="translate(150, 100)">
+    <!-- P -->
+    <path d="M0,0 L0,80 L30,80 L30,60 L60,60 C75,60 90,45 90,30 C90,15 75,0 60,0 Z" fill="#FF6600"/>
+    <path d="M30,20 L55,20 C60,20 65,25 65,30 C65,35 60,40 55,40 L30,40 Z" fill="#000000"/>
+    
+    <!-- B -->
+    <path d="M100,0 L100,80 L130,80 L130,60 L160,60 C175,60 190,45 190,30 C190,15 175,0 160,0 Z" fill="#FFFFFF"/>
+    <path d="M130,20 L155,20 C160,20 165,25 165,30 C165,35 160,40 155,40 L130,40 Z" fill="#000000"/>
+  </g>
+  
+  <!-- Checklist -->
+  <g transform="translate(400, 50)">
+    <!-- Paper -->
+    <rect x="0" y="0" width="130" height="100" fill="#FFFFFF"/>
+    <!-- Lines -->
+    <line x1="0" y1="20" x2="130" y2="20" stroke="#000000" stroke-width="1"/>
+    <line x1="0" y1="40" x2="130" y2="40" stroke="#000000" stroke-width="1"/>
+    <line x1="0" y1="60" x2="130" y2="60" stroke="#000000" stroke-width="1"/>
+    <line x1="0" y1="80" x2="130" y2="80" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Checkmarks -->
+    <circle cx="15" cy="10" r="10" fill="#FF6600"/>
+    <path d="M10,10 L15,15 L22,6" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    
+    <circle cx="15" cy="30" r="10" fill="#FF6600"/>
+    <path d="M10,30 L15,35 L22,26" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    
+    <circle cx="15" cy="50" r="10" fill="#FF6600"/>
+    <path d="M10,50 L15,55 L22,46" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    
+    <circle cx="15" cy="70" r="10" fill="#FF6600"/>
+    <path d="M10,70 L15,75 L22,66" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- BETTING text -->
+  <text x="150" y="180" font-family="Arial" font-size="24" font-weight="bold" fill="#FFFFFF">BETTING</text>
+  
+  <!-- TM symbol -->
+  <text x="570" y="110" font-family="Arial" font-size="16" fill="#FFFFFF">TM</text>
+</svg>

@@ -1,0 +1,1460 @@
+2025-04-29 05:31:46,403 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 05:31:46,403 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 05:31:46,410 - message_manager - INFO - Message database tables initialized
+2025-04-29 05:31:46,426 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 05:31:46,427 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 05:31:46,427 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 05:31:46,431 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 05:31:46,443 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 05:31:47,013 - AccountActivityManager - INFO - Initializing browser for account activity
+2025-04-29 05:31:47,014 - TextNowAutomation - WARNING - TextNow APK not found at E:\work\TextNowMax_Package (1)\TextNowMax_Package\textnow.apk
+2025-04-29 05:31:47,015 - TextNowAutomation - INFO - No device manager provided, will use web automation only
+2025-04-29 05:31:47,015 - Database - INFO - Connected to database: ghost_accounts.db
+2025-04-29 05:31:47,016 - Database - INFO - Database schema initialized
+2025-04-29 05:31:47,017 - Database - INFO - Default settings initialized
+2025-04-29 05:31:47,018 - AccountActivityManager - INFO - Performing maintenance activity for account: janedoe
+2025-04-29 05:31:47,018 - AccountActivityManager - INFO - Performing synchronous web login for janedoe
+2025-04-29 05:31:52,019 - AccountActivityManager - INFO - Sending message to (555) 987-6543
+2025-04-29 05:31:53,021 - AccountActivityManager - INFO - Performing synchronous web logout
+2025-04-29 05:31:54,022 - AccountActivityManager - ERROR - Error processing account janedoe: 'id'
+2025-04-29 05:31:58,785 - AccountActivityManager - ERROR - Fatal error in activity worker: 'id'
+2025-04-29 05:31:59,498 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.2.250:5000
+2025-04-29 05:31:59,498 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 05:31:59,502 - werkzeug - INFO -  * Restarting with stat
+2025-04-29 05:32:00,037 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 05:32:00,037 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 05:32:00,040 - message_manager - INFO - Message database tables initialized
+2025-04-29 05:32:00,050 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 05:32:00,050 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 05:32:00,050 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 05:32:00,051 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 05:32:00,054 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 05:32:00,074 - werkzeug - WARNING -  * Debugger is active!
+2025-04-29 05:32:00,078 - werkzeug - INFO -  * Debugger PIN: 450-866-515
+2025-04-29 05:53:37,397 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 05:53:37,397 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 05:53:37,400 - message_manager - INFO - Message database tables initialized
+2025-04-29 05:53:37,411 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 05:53:37,411 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 05:53:37,411 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 05:53:37,415 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 05:53:37,415 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 05:53:37,516 - AccountActivityManager - INFO - Initializing browser for account activity
+2025-04-29 05:53:37,516 - TextNowAutomation - WARNING - TextNow APK not found at E:\work\TextNowMax_Package (1)\TextNowMax_Package\textnow.apk
+2025-04-29 05:53:37,517 - TextNowAutomation - INFO - No device manager provided, will use web automation only
+2025-04-29 05:53:37,517 - Database - INFO - Connected to database: ghost_accounts.db
+2025-04-29 05:53:37,518 - Database - INFO - Database schema initialized
+2025-04-29 05:53:37,519 - Database - INFO - Default settings initialized
+2025-04-29 05:53:37,519 - AccountActivityManager - INFO - Performing maintenance activity for account: janedoe
+2025-04-29 05:53:37,519 - AccountActivityManager - INFO - Performing synchronous web login for janedoe
+2025-04-29 05:53:42,520 - AccountActivityManager - INFO - Sending message to (555) 987-6543
+2025-04-29 05:53:43,522 - AccountActivityManager - INFO - Performing synchronous web logout
+2025-04-29 05:53:44,522 - AccountActivityManager - ERROR - Error processing account janedoe: 'id'
+2025-04-29 05:53:47,324 - AccountActivityManager - ERROR - Fatal error in activity worker: 'id'
+2025-04-29 05:53:49,364 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.2.250:5000
+2025-04-29 05:53:50,336 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 05:53:50,341 - werkzeug - INFO -  * Restarting with stat
+2025-04-29 05:53:50,841 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 05:53:50,842 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 05:53:50,844 - message_manager - INFO - Message database tables initialized
+2025-04-29 05:53:50,853 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 05:53:50,854 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 05:53:50,854 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 05:53:50,854 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 05:53:50,858 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 05:53:50,879 - werkzeug - WARNING -  * Debugger is active!
+2025-04-29 05:53:50,883 - werkzeug - INFO -  * Debugger PIN: 450-866-515
+2025-04-29 05:54:46,986 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 05:54:46,986 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 05:54:46,987 - message_manager - INFO - Message database tables initialized
+2025-04-29 05:54:46,997 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 05:54:46,997 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 05:54:46,997 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 05:54:47,001 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 05:54:47,001 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 05:54:47,069 - AccountActivityManager - INFO - Initializing browser for account activity
+2025-04-29 05:54:47,069 - TextNowAutomation - INFO - Found TextNow APK at E:\work\TextNowMax_Package (1)\TextNowMax_Package\textnow.apk
+2025-04-29 05:54:47,070 - TextNowAutomation - INFO - No device manager provided, will use web automation only
+2025-04-29 05:54:47,070 - Database - INFO - Connected to database: ghost_accounts.db
+2025-04-29 05:54:47,071 - Database - INFO - Database schema initialized
+2025-04-29 05:54:47,071 - Database - INFO - Default settings initialized
+2025-04-29 05:54:47,071 - AccountActivityManager - INFO - Performing maintenance activity for account: janedoe
+2025-04-29 05:54:47,071 - AccountActivityManager - INFO - Performing synchronous web login for janedoe
+2025-04-29 05:54:52,073 - AccountActivityManager - INFO - Sending message to (555) 987-6543
+2025-04-29 05:54:53,073 - AccountActivityManager - INFO - Performing synchronous web logout
+2025-04-29 05:54:54,075 - AccountActivityManager - ERROR - Error processing account janedoe: 'id'
+2025-04-29 05:54:58,266 - AccountActivityManager - ERROR - Fatal error in activity worker: 'id'
+2025-04-29 05:54:58,945 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.2.250:5000
+2025-04-29 05:54:58,946 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 05:54:58,947 - werkzeug - INFO -  * Restarting with stat
+2025-04-29 05:54:59,443 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 05:54:59,443 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 05:54:59,445 - message_manager - INFO - Message database tables initialized
+2025-04-29 05:54:59,455 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 05:54:59,455 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 05:54:59,456 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 05:54:59,456 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 05:54:59,456 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 05:54:59,479 - werkzeug - WARNING -  * Debugger is active!
+2025-04-29 05:54:59,483 - werkzeug - INFO -  * Debugger PIN: 450-866-515
+2025-04-29 06:02:20,913 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:02:20,914 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:02:20,915 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:02:20,927 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:02:20,927 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:02:20,927 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:02:20,931 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:02:20,931 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:02:21,034 - AccountActivityManager - INFO - Initializing browser for account activity
+2025-04-29 06:02:21,034 - TextNowAutomation - WARNING - TextNow APK not found at E:\work\TextNowMax_Package (1)\TextNowMax_Package\textnow.apk
+2025-04-29 06:02:21,035 - TextNowAutomation - INFO - No device manager provided, will use web automation only
+2025-04-29 06:02:21,035 - Database - INFO - Connected to database: ghost_accounts.db
+2025-04-29 06:02:21,036 - Database - INFO - Database schema initialized
+2025-04-29 06:02:21,036 - Database - INFO - Default settings initialized
+2025-04-29 06:02:21,036 - AccountActivityManager - INFO - Performing maintenance activity for account: janedoe
+2025-04-29 06:02:21,036 - AccountActivityManager - INFO - Performing synchronous web login for janedoe
+2025-04-29 06:02:26,038 - AccountActivityManager - INFO - Performing synchronous web logout
+2025-04-29 06:02:27,040 - AccountActivityManager - ERROR - Error processing account janedoe: 'id'
+2025-04-29 06:02:30,256 - AccountActivityManager - ERROR - Fatal error in activity worker: 'id'
+2025-04-29 06:02:32,885 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.2.250:5000
+2025-04-29 06:02:32,886 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 06:02:32,890 - werkzeug - INFO -  * Restarting with stat
+2025-04-29 06:02:33,476 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:02:33,476 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:02:33,478 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:02:33,488 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:02:33,489 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:02:33,489 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:02:33,489 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:02:33,493 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:02:33,514 - werkzeug - WARNING -  * Debugger is active!
+2025-04-29 06:02:33,519 - werkzeug - INFO -  * Debugger PIN: 450-866-515
+2025-04-29 06:11:45,219 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:11:45,219 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:11:45,221 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:11:45,232 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:11:45,232 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:11:45,232 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:11:45,236 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:11:45,237 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:11:45,330 - AccountActivityManager - INFO - Initializing browser for account activity
+2025-04-29 06:11:45,330 - TextNowAutomation - INFO - Found TextNow APK at E:\work\TextNowMax_Package (1)\TextNowMax_Package\textnow.apk
+2025-04-29 06:11:45,330 - TextNowAutomation - INFO - No device manager provided, will use web automation only
+2025-04-29 06:11:45,331 - Database - INFO - Connected to database: ghost_accounts.db
+2025-04-29 06:11:45,331 - Database - INFO - Database schema initialized
+2025-04-29 06:11:45,332 - Database - INFO - Default settings initialized
+2025-04-29 06:11:45,332 - AccountActivityManager - INFO - Performing maintenance activity for account: janedoe
+2025-04-29 06:11:45,332 - AccountActivityManager - INFO - Performing synchronous web login for janedoe
+2025-04-29 06:11:50,334 - AccountActivityManager - INFO - Sending message to (555) 987-6543
+2025-04-29 06:11:51,335 - AccountActivityManager - INFO - Performing synchronous web logout
+2025-04-29 06:11:52,336 - AccountActivityManager - ERROR - Error processing account janedoe: 'id'
+2025-04-29 06:11:55,514 - AccountActivityManager - ERROR - Fatal error in activity worker: 'id'
+2025-04-29 06:11:57,249 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.2.250:5000
+2025-04-29 06:11:57,250 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 06:11:57,252 - werkzeug - INFO -  * Restarting with stat
+2025-04-29 06:11:57,750 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:11:57,750 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:11:57,752 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:11:57,762 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:11:57,762 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:11:57,762 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:11:57,763 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:11:57,767 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:11:57,787 - werkzeug - WARNING -  * Debugger is active!
+2025-04-29 06:11:57,792 - werkzeug - INFO -  * Debugger PIN: 450-866-515
+2025-04-29 06:12:54,913 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:12:54,914 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:12:54,915 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:12:54,925 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:12:54,925 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:12:54,925 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:12:54,929 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:12:54,929 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:12:55,000 - AccountActivityManager - INFO - Initializing browser for account activity
+2025-04-29 06:12:55,000 - TextNowAutomation - INFO - Found TextNow APK at E:\work\TextNowMax_Package (1)\TextNowMax_Package\textnow.apk
+2025-04-29 06:12:55,001 - TextNowAutomation - INFO - No device manager provided, will use web automation only
+2025-04-29 06:12:55,001 - Database - INFO - Connected to database: ghost_accounts.db
+2025-04-29 06:12:55,002 - Database - INFO - Database schema initialized
+2025-04-29 06:12:55,003 - Database - INFO - Default settings initialized
+2025-04-29 06:12:55,003 - AccountActivityManager - INFO - Performing maintenance activity for account: janedoe
+2025-04-29 06:12:55,003 - AccountActivityManager - INFO - Performing synchronous web login for janedoe
+2025-04-29 06:13:00,004 - AccountActivityManager - INFO - Sending message to (555) 987-6543
+2025-04-29 06:13:01,005 - AccountActivityManager - INFO - Performing synchronous web logout
+2025-04-29 06:13:02,006 - AccountActivityManager - ERROR - Error processing account janedoe: 'id'
+2025-04-29 06:13:05,791 - AccountActivityManager - ERROR - Fatal error in activity worker: 'id'
+2025-04-29 06:13:06,938 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.2.250:5000
+2025-04-29 06:13:06,938 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 06:13:06,940 - werkzeug - INFO -  * Restarting with stat
+2025-04-29 06:13:07,458 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:13:07,458 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:13:07,460 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:13:07,471 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:13:07,471 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:13:07,471 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:13:07,475 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:13:07,476 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:13:07,496 - werkzeug - WARNING -  * Debugger is active!
+2025-04-29 06:13:07,500 - werkzeug - INFO -  * Debugger PIN: 450-866-515
+2025-04-29 06:21:47,276 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:21:47,284 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:21:47,287 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:21:47,298 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:21:47,298 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:21:47,298 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:21:47,302 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:21:47,302 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:21:47,406 - AccountActivityManager - INFO - Initializing browser for account activity
+2025-04-29 06:21:47,406 - TextNowAutomation - INFO - Found TextNow APK at E:\work\TextNowMax_Package (1)\TextNowMax_Package\textnow.apk
+2025-04-29 06:21:47,407 - TextNowAutomation - INFO - No device manager provided, will use web automation only
+2025-04-29 06:21:47,407 - Database - INFO - Connected to database: ghost_accounts.db
+2025-04-29 06:21:47,408 - Database - INFO - Database schema initialized
+2025-04-29 06:21:47,408 - Database - INFO - Default settings initialized
+2025-04-29 06:21:47,408 - AccountActivityManager - INFO - Performing maintenance activity for account: janedoe
+2025-04-29 06:21:47,409 - AccountActivityManager - INFO - Performing synchronous web login for janedoe
+2025-04-29 06:21:52,410 - AccountActivityManager - INFO - Sending message to (555) 987-6543
+2025-04-29 06:21:53,411 - AccountActivityManager - INFO - Performing synchronous web logout
+2025-04-29 06:21:54,412 - AccountActivityManager - ERROR - Error processing account janedoe: 'id'
+2025-04-29 06:21:58,473 - AccountActivityManager - ERROR - Fatal error in activity worker: 'id'
+2025-04-29 06:21:59,181 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.2.250:5000
+2025-04-29 06:21:59,181 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 06:21:59,183 - werkzeug - INFO -  * Restarting with stat
+2025-04-29 06:21:59,685 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:21:59,685 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:21:59,687 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:21:59,697 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:21:59,697 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:21:59,698 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:21:59,699 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:21:59,703 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:21:59,723 - werkzeug - WARNING -  * Debugger is active!
+2025-04-29 06:21:59,726 - werkzeug - INFO -  * Debugger PIN: 450-866-515
+2025-04-29 06:24:12,673 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:24:12,673 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:24:12,674 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:24:12,685 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:24:12,685 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:24:12,685 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:24:12,689 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:24:12,689 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:24:12,759 - AccountActivityManager - INFO - Initializing browser for account activity
+2025-04-29 06:24:12,759 - TextNowAutomation - INFO - Found TextNow APK at E:\work\TextNowMax_Package (1)\TextNowMax_Package\textnow.apk
+2025-04-29 06:24:12,760 - TextNowAutomation - INFO - No device manager provided, will use web automation only
+2025-04-29 06:24:12,760 - Database - INFO - Connected to database: ghost_accounts.db
+2025-04-29 06:24:12,761 - Database - INFO - Database schema initialized
+2025-04-29 06:24:12,762 - Database - INFO - Default settings initialized
+2025-04-29 06:24:12,762 - AccountActivityManager - INFO - Performing maintenance activity for account: janedoe
+2025-04-29 06:24:12,762 - AccountActivityManager - INFO - Performing synchronous web login for janedoe
+2025-04-29 06:24:13,543 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.108.74:5000
+2025-04-29 06:24:13,543 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 06:24:13,545 - werkzeug - INFO -  * Restarting with stat
+2025-04-29 06:24:14,043 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:24:14,043 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:24:14,045 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:24:14,055 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:24:14,056 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:24:14,056 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:24:14,056 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:24:14,060 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:24:14,083 - werkzeug - WARNING -  * Debugger is active!
+2025-04-29 06:24:14,089 - werkzeug - INFO -  * Debugger PIN: 450-866-515
+2025-04-29 06:25:51,315 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 06:25:51,315 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 06:25:51,317 - message_manager - INFO - Message database tables initialized
+2025-04-29 06:25:51,328 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 06:25:51,328 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 06:25:51,328 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 06:25:51,332 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:25:51,332 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:25:51,396 - AccountActivityManager - INFO - Initializing browser for account activity
+2025-04-29 06:25:51,397 - TextNowAutomation - INFO - Found TextNow APK at E:\work\TextNowMax_Package (1)\TextNowMax_Package\textnow.apk
+2025-04-29 06:25:51,398 - TextNowAutomation - INFO - No device manager provided, will use web automation only
+2025-04-29 06:25:51,398 - Database - INFO - Connected to database: ghost_accounts.db
+2025-04-29 06:25:51,399 - Database - INFO - Database schema initialized
+2025-04-29 06:25:51,399 - Database - INFO - Default settings initialized
+2025-04-29 06:25:51,399 - AccountActivityManager - INFO - Performing maintenance activity for account: janedoe
+2025-04-29 06:25:51,399 - AccountActivityManager - INFO - Performing synchronous web login for janedoe
+2025-04-29 06:25:52,167 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.108.74:5000
+2025-04-29 06:25:52,167 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 06:25:56,401 - AccountActivityManager - INFO - Performing synchronous web logout
+2025-04-29 06:25:57,401 - AccountActivityManager - ERROR - Error processing account janedoe: 'id'
+2025-04-29 06:26:01,745 - AccountActivityManager - ERROR - Fatal error in activity worker: 'id'
+2025-04-29 06:26:12,619 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:26:12] "GET / HTTP/1.0" 200 -
+2025-04-29 06:26:12,695 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:26:12] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:26:12,703 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:26:12] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:26:12,795 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:26:12] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+2025-04-29 06:26:13,784 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:26:13,785 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:26:13] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:26:43,766 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:26:43,766 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:26:43] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:26:51,335 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:26:51,335 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:27:13,710 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:27:13,710 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:27:13] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:27:43,725 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:27:43,726 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:27:43] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:27:51,337 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:27:51,337 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:28:13,690 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:13,690 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:13] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:16,188 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:16] "GET /creator HTTP/1.0" 200 -
+2025-04-29 06:28:16,211 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:16] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:16,239 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:16] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:17,261 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:17,261 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:17] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:18,100 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:18] "GET /dashboard HTTP/1.0" 200 -
+2025-04-29 06:28:18,128 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:18] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:18,147 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:18] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:19,164 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:19,165 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:19] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:21,035 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:21] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 06:28:21,060 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:21] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 06:28:21,199 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:21] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:21,283 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:21] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:22,253 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:22,253 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:22] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:24,450 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:24] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 06:28:24,478 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:24] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:24,503 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:24] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:25,517 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:25,518 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:25] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:26,210 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:26] "GET /message-templates HTTP/1.0" 200 -
+2025-04-29 06:28:26,238 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:26] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:26,258 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:26] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:27,171 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:27] "GET /message-dashboard HTTP/1.0" 200 -
+2025-04-29 06:28:27,204 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:27] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:27,209 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:27] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:27,257 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:27,258 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:27] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:27,867 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:27] "GET /media-dashboard HTTP/1.0" 200 -
+2025-04-29 06:28:27,910 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:27] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:27,923 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:27] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:28,270 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:28] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 06:28:28,271 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:28,272 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:28] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:28,306 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:28] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:28,328 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:28] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:28,707 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:28] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 06:28:28,743 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:28] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:28,761 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:28] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:29,282 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:29,284 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:29] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:29,294 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:29] "GET /campaign-schedule HTTP/1.0" 200 -
+2025-04-29 06:28:29,355 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:29] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:29,365 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:29] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:29,735 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:29] "GET /proxy-manager HTTP/1.0" 200 -
+2025-04-29 06:28:29,777 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:29] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:29,852 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:29] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:28:29,854 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:29] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:29,855 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:29] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:28:30,298 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:30,299 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:30] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:30,749 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:30] "GET /anti-detection HTTP/1.0" 200 -
+2025-04-29 06:28:30,791 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:30] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:28:30,802 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:30] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:28:31,320 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:31,320 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:31] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:32,324 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:32,324 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:32] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:33,346 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:33,346 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:33] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:34,360 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:34,361 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:34] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:35,358 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:35,359 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:35] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:36,395 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:28:36,395 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:28:36] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:28:51,338 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:28:51,339 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:29:01,771 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:29:01,771 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:01] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:29:23,091 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:23] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 06:29:23,136 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:23] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:29:23,164 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:23] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:29:24,157 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:29:24,157 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:24] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:29:24,196 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:24] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 06:29:24,236 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:24] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:29:24,300 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:24] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:29:24,998 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:24] "GET /message-templates HTTP/1.0" 200 -
+2025-04-29 06:29:25,040 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:25] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:29:25,060 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:25] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:29:25,247 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:29:25,248 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:25] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:29:25,534 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:25] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 06:29:25,606 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:25] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:29:25,688 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:25] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:29:25,801 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:25] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 06:29:25,836 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:25] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:29:25,854 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:25] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:29:26,172 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:26] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 06:29:26,197 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:26] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:29:26,262 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:29:26,264 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:26] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:29:26,346 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:26] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:29:26,463 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:26] "GET /dashboard HTTP/1.0" 200 -
+2025-04-29 06:29:26,506 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:26] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:29:26,510 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:26] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:29:26,778 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:26] "GET /creator HTTP/1.0" 200 -
+2025-04-29 06:29:26,830 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:26] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:29:26,882 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:26] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:29:27,197 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:27] "GET / HTTP/1.0" 200 -
+2025-04-29 06:29:27,226 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:27] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:29:27,246 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:27] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:29:27,265 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:29:27,267 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:27] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:29:28,281 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:29:28,282 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:28] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:29:29,295 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:29:29,296 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:29] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:29:30,300 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:29:30,300 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:30] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:29:31,328 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:29:31,329 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:31] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:29:33,075 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:33] "POST /api/device/refresh-ip HTTP/1.0" 200 -
+2025-04-29 06:29:51,340 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:29:51,340 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:29:58,220 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:29:58,221 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:29:58] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:30:17,116 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:17] "GET /message-templates HTTP/1.0" 200 -
+2025-04-29 06:30:17,157 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:17] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:30:17,173 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:17] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:30:18,174 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:30:18,175 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:18] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:30:25,658 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:25] "GET /message-dashboard HTTP/1.0" 200 -
+2025-04-29 06:30:25,692 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:25] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:30:25,708 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:25] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:30:26,700 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:30:26,701 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:26] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:30:47,812 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:47] "GET /media-dashboard HTTP/1.0" 200 -
+2025-04-29 06:30:47,835 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:47] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:30:47,859 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:47] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:30:48,886 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:30:48,886 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:48] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:30:51,342 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:30:51,342 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:30:51,668 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:51] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 06:30:51,695 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:51] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:30:51,713 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:51] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:30:52,700 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:30:52,701 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:52] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:30:54,283 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:54] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 06:30:54,319 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:54] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:30:54,343 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:54] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:30:55,349 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:30:55,350 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:55] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:30:56,216 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:56] "GET /campaign-schedule HTTP/1.0" 200 -
+2025-04-29 06:30:56,254 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:56] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:30:56,268 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:56] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:30:57,258 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:30:57,259 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:30:57] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:31:27,238 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:31:27,238 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:31:27] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:31:51,344 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:31:51,344 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:31:58,217 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:31:58,217 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:31:58] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:32:13,715 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:13] "GET /proxy-manager HTTP/1.0" 200 -
+2025-04-29 06:32:13,760 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:13] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:32:13,786 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:13] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:32:13,789 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:13] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:32:13,789 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:13] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:32:14,764 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:14] "GET /anti-detection HTTP/1.0" 200 -
+2025-04-29 06:32:14,798 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:32:14,800 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:14] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:32:14,807 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:14] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:32:14,822 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:14] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:32:15,822 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:32:15,823 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:15] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:32:16,833 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:32:16,834 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:16] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:32:17,846 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:32:17,847 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:17] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:32:36,283 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:36] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 06:32:36,322 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:36] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:32:36,335 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:36] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:32:37,332 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:32:37,332 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:37] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:32:48,613 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:48] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 06:32:48,630 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:48] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:32:48,659 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:48] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:32:49,656 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:32:49,657 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:49] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:32:49,788 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:49] "GET /campaign-schedule HTTP/1.0" 200 -
+2025-04-29 06:32:49,806 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:49] "GET /campaign-schedule HTTP/1.0" 200 -
+2025-04-29 06:32:49,828 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:49] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:32:49,902 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:49] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:32:50,901 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:32:50,901 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:32:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:32:51,346 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:32:51,346 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:33:21,288 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:33:21,289 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:33:21] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:33:51,221 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:33:51,222 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:33:51] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:33:51,348 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:33:51,349 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:34:21,242 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:34:21,244 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:34:21] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:34:51,272 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:34:51,272 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:34:51] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:34:51,351 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:34:51,352 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:35:50,269 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:35:50,270 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:35:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:35:51,353 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:35:51,353 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:36:50,253 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:36:50,254 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:36:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:36:51,356 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:36:51,356 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:37:38,726 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:37:38,727 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:37:38] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:37:45,782 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:37:45] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 06:37:45,807 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:37:45] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:37:45,824 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:37:45] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:37:46,854 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:37:46,855 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:37:46] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:37:48,988 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:37:48] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 06:37:49,025 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:37:49] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:37:49,086 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:37:49] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:37:50,067 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:37:50,068 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:37:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:37:51,358 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:37:51,358 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:38:20,227 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:38:20,228 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:38:20] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:38:50,227 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:38:50,228 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:38:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:38:51,360 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:38:51,360 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:39:02,381 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:02] "GET / HTTP/1.0" 200 -
+2025-04-29 06:39:02,397 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:02] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:02,420 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:02] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:03,075 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:03] "GET /creator HTTP/1.0" 200 -
+2025-04-29 06:39:03,098 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:03] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:03,123 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:03] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:03,713 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:03] "GET /dashboard HTTP/1.0" 200 -
+2025-04-29 06:39:03,732 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:03] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:03,759 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:03] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:03,909 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:03,909 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:03] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:04,123 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:04,124 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:04] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:04,745 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:04,746 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:04] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:05,076 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:05] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 06:39:05,097 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:05] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:05,125 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:05] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:06,148 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:06,149 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:06] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:06,572 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:06] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 06:39:06,594 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:06] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:06,615 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:06] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:07,149 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:07] "GET /message-templates HTTP/1.0" 200 -
+2025-04-29 06:39:07,174 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:07] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:07,193 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:07] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:07,620 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:07,621 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:07] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:07,693 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:07] "GET /message-dashboard HTTP/1.0" 200 -
+2025-04-29 06:39:07,714 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:07] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:07,817 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:07] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:08,084 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:08] "GET /media-dashboard HTTP/1.0" 200 -
+2025-04-29 06:39:08,101 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:08] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:08,123 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:08] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:08,184 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:08,185 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:08] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:08,806 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:08,806 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:08] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:09,113 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:09,114 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:09] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:09,571 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:09] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 06:39:09,592 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:09] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:09,610 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:09] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:09,948 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:09] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 06:39:09,965 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:09] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:09,987 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:09] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:10,367 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:10] "GET /campaign-schedule HTTP/1.0" 200 -
+2025-04-29 06:39:10,389 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:10] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:10,410 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:10] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:10,622 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:10,622 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:10] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:10,762 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:10] "GET /proxy-manager HTTP/1.0" 200 -
+2025-04-29 06:39:10,807 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:10] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:10,864 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:10] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:39:10,869 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:10] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:39:10,915 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:10] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:10,997 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:10,998 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:10] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:11,163 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:11] "GET /anti-detection HTTP/1.0" 200 -
+2025-04-29 06:39:11,182 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:11] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:39:11,202 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:11] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:39:11,424 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:11,425 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:11] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:11,905 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:11,905 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:11] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:12,188 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:12,188 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:12] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:42,234 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:39:42,235 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:39:42] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:39:51,362 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:39:51,363 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:40:12,238 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:40:12,238 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:12] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:40:22,653 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:22] "GET /message-dashboard HTTP/1.0" 200 -
+2025-04-29 06:40:22,685 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:22] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:40:22,696 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:22] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:40:23,611 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:23] "GET /media-dashboard HTTP/1.0" 200 -
+2025-04-29 06:40:23,628 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:23] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:40:23,656 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:23] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:40:23,706 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:40:23,707 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:23] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:40:23,939 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:23] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 06:40:23,954 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:23] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 06:40:23,978 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:23] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:40:23,998 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:23] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:40:24,355 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:24] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 06:40:24,388 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:24] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:40:24,402 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:24] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:40:24,678 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:40:24,680 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:24] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:40:24,803 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:24] "GET /campaign-schedule HTTP/1.0" 200 -
+2025-04-29 06:40:24,835 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:24] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:40:24,845 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:24] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:40:25,008 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:40:25,008 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:25] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:40:25,400 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:40:25,400 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:25] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:40:25,865 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:40:25,866 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:25] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:40:37,547 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:37] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 06:40:37,566 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:37] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:40:37,595 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:37] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:40:38,600 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:40:38,601 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:38] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:40:51,364 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:40:51,365 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:40:59,805 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:59] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 06:40:59,835 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:59] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:40:59,847 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:40:59] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:41:00,869 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:41:00,869 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:41:00] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:41:31,232 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:41:31,233 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:41:31] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:41:50,540 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:41:50] "GET / HTTP/1.0" 200 -
+2025-04-29 06:41:50,603 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:41:50] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:41:50,645 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:41:50] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:41:51,367 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:41:51,367 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:41:51,640 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:41:51,640 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:41:51] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:41:52,756 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:41:52] "GET / HTTP/1.0" 200 -
+2025-04-29 06:41:52,776 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:41:52] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:41:52,792 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:41:52] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:41:53,836 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:41:53,837 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:41:53] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:14,075 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:14] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 06:42:14,100 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:14] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:14,132 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:14] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:15,170 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:15,171 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:15] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:15,399 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:15] "GET /dashboard HTTP/1.0" 200 -
+2025-04-29 06:42:15,415 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:15] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:15,436 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:15] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:16,037 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:16] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 06:42:16,072 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:16] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:16,096 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:16] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:16,457 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:16,460 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:16] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:17,099 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:17,099 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:17] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:25,836 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:25] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 06:42:25,867 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:25] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:25,877 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:25] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:26,883 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:26,885 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:26] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:28,139 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:28] "GET /message-templates HTTP/1.0" 200 -
+2025-04-29 06:42:28,161 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:28] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:28,181 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:28] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:29,091 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:29] "GET /message-templates HTTP/1.0" 200 -
+2025-04-29 06:42:29,109 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:29] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:29,148 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:29] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:29,215 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:29,218 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:29] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:29,282 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:29] "GET /message-templates HTTP/1.0" 200 -
+2025-04-29 06:42:29,295 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:29] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:29,326 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:29] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:29,814 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:29] "GET /message-dashboard HTTP/1.0" 200 -
+2025-04-29 06:42:29,833 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:29] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:29,927 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:29] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:30,143 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:30,144 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:30] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:30,363 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:30,364 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:30] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:30,460 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:30] "GET /media-dashboard HTTP/1.0" 200 -
+2025-04-29 06:42:30,485 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:30] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:30,567 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:30] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:30,888 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:30,888 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:30] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:31,552 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:31,553 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:31] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:32,035 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:32] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 06:42:32,057 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:32] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:32,073 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:32] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:33,068 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:33,069 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:33] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:33,123 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:33] "GET /media-dashboard HTTP/1.0" 200 -
+2025-04-29 06:42:33,144 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:33] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:33,164 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:33] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:34,185 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:34,186 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:34] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:38,725 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:38] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 06:42:38,746 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:38] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:38,775 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:38] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:39,784 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:39,784 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:39] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:39,800 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:39] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 06:42:39,816 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:39] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:39,841 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:39] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:40,874 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:40,875 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:40] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:41,823 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:41] "GET /campaign-schedule HTTP/1.0" 200 -
+2025-04-29 06:42:41,860 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:41] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:41,882 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:41] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:42,876 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:42,877 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:42] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:49,508 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:49] "GET /proxy-manager HTTP/1.0" 200 -
+2025-04-29 06:42:49,536 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:49] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:49,553 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:49] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:42:49,557 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:49] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:42:49,558 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:49] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:50,220 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:50] "GET /anti-detection HTTP/1.0" 200 -
+2025-04-29 06:42:50,244 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:50] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:50,266 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:50] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:50,580 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:50,580 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:50,707 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:50] "GET /proxy-manager HTTP/1.0" 200 -
+2025-04-29 06:42:50,729 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:50] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:42:50,800 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:50] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:42:50,803 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:50] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:42:50,844 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:50] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:42:51,279 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:51,279 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:51] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:51,371 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:42:51,372 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:42:51,787 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:51,788 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:51] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:52,793 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:52,795 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:52] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:52,812 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:52,813 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:52] "GET /api/proxy/check HTTP/1.0" 200 -
+2025-04-29 06:42:53,788 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:53,789 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:53] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:42:54,862 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:42:54,862 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:42:54] "GET /api/proxy/check HTTP/1.0" 200 -
+2025-04-29 06:43:10,248 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:10] "GET /proxy-manager HTTP/1.0" 200 -
+2025-04-29 06:43:10,270 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:10] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:43:10,351 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:10] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:43:10,358 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:10] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 06:43:10,358 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:10] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:43:11,379 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:43:11,380 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:11] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:43:12,415 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:43:12,416 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:12] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:43:13,415 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:43:13,417 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:13] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:43:21,176 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:21] "POST /api/device/refresh-ip HTTP/1.0" 200 -
+2025-04-29 06:43:36,675 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:36] "POST /api/device/refresh-ip HTTP/1.0" 200 -
+2025-04-29 06:43:39,371 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:39] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 06:43:39,393 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:39] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:43:39,503 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:39] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:43:40,513 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:43:40,513 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:40] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:43:49,299 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:49] "GET /creator HTTP/1.0" 200 -
+2025-04-29 06:43:49,316 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:49] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:43:49,341 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:49] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:43:50,397 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:43:50,398 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:43:51,375 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:43:51,375 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:43:58,012 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:58] "POST /api/device/refresh-ip HTTP/1.0" 200 -
+2025-04-29 06:43:59,419 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:59] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 06:43:59,455 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:59] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:43:59,549 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:43:59] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:44:00,572 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:44:00,573 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:00] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:44:05,588 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:05] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 06:44:05,610 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:05] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:44:05,630 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:05] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:44:06,651 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:44:06,651 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:06] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:44:07,139 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:07] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 06:44:07,170 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:07] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:44:07,184 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:07] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:44:08,216 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:44:08,217 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:08] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:44:12,556 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:12] "GET /anti-detection HTTP/1.0" 200 -
+2025-04-29 06:44:12,576 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:12] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:44:12,606 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:12] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:44:13,624 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:44:13,624 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:13] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:44:44,233 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:44:44,235 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:44:44] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:44:51,377 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:44:51,377 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:45:14,272 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:45:14,273 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:45:14] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:45:44,278 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:45:44,279 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:45:44] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:45:51,379 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:45:51,379 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:46:14,291 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:46:14,292 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:46:14] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:46:50,251 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:46:50,253 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:46:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:46:51,381 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:46:51,381 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:47:31,369 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:47:31,369 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:47:31] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:47:44,258 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:47:44,259 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:47:44] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:47:51,383 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:47:51,383 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:48:14,265 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:48:14,266 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:48:14] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:48:50,286 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:48:50,288 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:48:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:48:51,387 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:48:51,387 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:49:36,294 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:49:36,295 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:49:36] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:49:40,433 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:49:40] "GET /message-dashboard HTTP/1.0" 200 -
+2025-04-29 06:49:40,559 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:49:40] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 06:49:40,567 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:49:40] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 06:49:41,596 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:49:41,596 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:49:41] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:49:51,391 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:49:51,391 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:50:12,246 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:50:12,247 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:50:12] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:50:42,239 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:50:42,241 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:50:42] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:50:51,395 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:50:51,395 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:51:12,338 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:51:12,338 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:51:12] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:51:42,248 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:51:42,248 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:51:42] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:51:51,398 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:51:51,398 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:52:50,227 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:52:50,229 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:52:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:52:51,400 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:52:51,400 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:53:50,304 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:53:50,305 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:53:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:53:51,402 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:53:51,403 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:54:50,280 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:54:50,281 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:54:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:54:51,405 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:54:51,405 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:55:50,216 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:55:50,217 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:55:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:55:51,407 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:55:51,407 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:56:50,249 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:56:50,250 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:56:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:56:51,409 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:56:51,410 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:57:50,233 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:57:50,234 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:57:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:57:51,413 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:57:51,414 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:58:50,245 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:58:50,246 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:58:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:58:51,419 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:58:51,419 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 06:59:50,262 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 06:59:50,263 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 06:59:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 06:59:51,422 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 06:59:51,422 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:00:50,292 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:00:50,293 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:00:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:00:51,424 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:00:51,424 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:01:50,275 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:01:50,276 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:01:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:01:51,426 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:01:51,427 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:02:37,184 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:02:37,184 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:02:37] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:02:42,225 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:02:42,225 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:02:42] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:02:51,431 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:02:51,432 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:03:12,229 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:03:12,230 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:03:12] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:03:42,235 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:03:42,236 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:03:42] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:03:51,436 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:03:51,437 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:04:12,289 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:04:12,290 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:04:12] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:04:50,261 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:04:50,262 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:04:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:04:51,441 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:04:51,442 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:05:50,243 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:05:50,244 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:05:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:05:51,444 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:05:51,444 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:06:50,230 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:06:50,231 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:06:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:06:51,450 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:06:51,450 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:07:50,234 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:07:50,235 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:07:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:07:51,452 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:07:51,452 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:08:50,253 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:08:50,255 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:08:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:08:51,456 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:08:51,456 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:09:50,221 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:09:50,221 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:09:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:09:51,458 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:09:51,458 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:10:50,271 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:10:50,272 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:10:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:10:51,460 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:10:51,460 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:11:50,734 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:11:50,735 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:11:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:11:51,463 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:11:51,463 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:12:50,233 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:12:50,234 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:12:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:12:51,467 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:12:51,468 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:13:11,606 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:13:11,607 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:13:11] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:13:17,889 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:13:17] "GET / HTTP/1.0" 200 -
+2025-04-29 07:13:17,933 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:13:17] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:13:17,937 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:13:17] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:13:18,940 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:13:18,942 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:13:18] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:13:49,229 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:13:49,230 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:13:49] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:13:51,471 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:13:51,471 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:14:19,233 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:14:19,234 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:14:19] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:14:49,228 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:14:49,228 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:14:49] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:14:51,474 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:14:51,475 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:15:19,252 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:15:19,252 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:15:19] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:15:50,241 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:15:50,241 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:15:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:15:51,479 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:15:51,479 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:16:28,677 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:16:28,678 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:16:28] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:16:49,409 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:16:49,410 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:16:49] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:16:51,483 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:16:51,484 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:17:18,983 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:18,985 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:18] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:22,449 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:22] "GET /creator HTTP/1.0" 200 -
+2025-04-29 07:17:22,467 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:22] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:22,488 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:22] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:23,260 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:23] "GET /dashboard HTTP/1.0" 200 -
+2025-04-29 07:17:23,282 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:23] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:23,354 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:23] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:23,511 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:23,512 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:23] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:23,664 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:23] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 07:17:23,683 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:23] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:23,704 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:23] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:24,055 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 07:17:24,087 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:24,152 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:24,400 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /message-templates HTTP/1.0" 200 -
+2025-04-29 07:17:24,416 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:24,441 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:24,725 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:24,725 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:24,790 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:24,792 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:24,855 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /message-dashboard HTTP/1.0" 200 -
+2025-04-29 07:17:24,879 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:24,903 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:24] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:25,136 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:25,137 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:25] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:25,280 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:25] "GET /media-dashboard HTTP/1.0" 200 -
+2025-04-29 07:17:25,299 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:25] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:25,318 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:25] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:25,456 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:25,457 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:25] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:25,648 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:25] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 07:17:25,664 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:25] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:25,684 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:25] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:25,916 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:25,916 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:25] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:25,993 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:25] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 07:17:26,008 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:26] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 07:17:26,028 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:26] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:26,106 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:26] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:26,344 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:26,346 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:26] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:26,392 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:26] "GET /campaign-schedule HTTP/1.0" 200 -
+2025-04-29 07:17:26,411 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:26] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:26,485 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:26] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:26,707 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:26,707 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:26] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:27,102 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:27,102 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:27] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:27,239 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:27] "GET /proxy-manager HTTP/1.0" 200 -
+2025-04-29 07:17:27,286 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:27] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:27,289 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:27] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 07:17:27,293 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:27] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 07:17:27,304 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:27] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:27,440 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:27,441 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:27] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:28,033 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:28] "GET /anti-detection HTTP/1.0" 200 -
+2025-04-29 07:17:28,054 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:28] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:28,070 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:28] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:28,313 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:28,315 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:28] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:28,792 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:28] "GET /proxy-manager HTTP/1.0" 200 -
+2025-04-29 07:17:28,817 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:28] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:28,900 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:28] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 07:17:28,900 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:28] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:28,903 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:28] "GET /api/proxy/config HTTP/1.0" 200 -
+2025-04-29 07:17:29,077 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:29,078 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:29] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:29,143 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:29] "GET /campaign-schedule HTTP/1.0" 200 -
+2025-04-29 07:17:29,164 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:29] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:29,229 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:29] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:29,497 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:29] "GET /voicemail-manager HTTP/1.0" 200 -
+2025-04-29 07:17:29,522 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:29] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:29,543 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:29] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:29,869 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:29,870 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:29] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:30,224 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:30] "GET /account-health HTTP/1.0" 200 -
+2025-04-29 07:17:30,224 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:30,225 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:30] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:30,246 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:30] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:30,274 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:30] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:30,540 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:30,542 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:30] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:30,983 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:30] "GET /message-dashboard HTTP/1.0" 200 -
+2025-04-29 07:17:31,004 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:31] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:31,025 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:31] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:31,278 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:31,280 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:31] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:31,956 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:31] "GET /message-templates HTTP/1.0" 200 -
+2025-04-29 07:17:31,978 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:31] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:32,004 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:32] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:32,038 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:32,039 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:32] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:32,387 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:32] "GET /manual-messaging HTTP/1.0" 200 -
+2025-04-29 07:17:32,420 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:32] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:32,445 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:32] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:33,009 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:33] "GET /campaigns HTTP/1.0" 200 -
+2025-04-29 07:17:33,010 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:33,011 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:33] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:33,032 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:33] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:33,066 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:33] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:33,439 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:33,440 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:33] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:33,898 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:33] "GET /dashboard HTTP/1.0" 200 -
+2025-04-29 07:17:33,914 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:33] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:33,935 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:33] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:34,069 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:34,071 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:34] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:34,423 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:34] "GET /creator HTTP/1.0" 200 -
+2025-04-29 07:17:34,446 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:34] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:34,479 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:34] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:34,809 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:34] "GET / HTTP/1.0" 200 -
+2025-04-29 07:17:34,833 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:34] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:34,864 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:34] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:35,364 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:35,365 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:35] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:35,501 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:35,502 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:35] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:35,889 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:35,890 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:35] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:40,688 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:40] "GET /creator HTTP/1.0" 200 -
+2025-04-29 07:17:40,709 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:40] "GET /static/progress_logo.png HTTP/1.0" 200 -
+2025-04-29 07:17:40,732 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:40] "GET /static/progress_background.jpg HTTP/1.0" 200 -
+2025-04-29 07:17:41,734 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:17:41,734 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:17:41] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:17:51,489 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:17:51,489 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:18:12,264 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:18:12,265 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:18:12] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:18:42,265 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:18:42,266 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:18:42] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:18:51,493 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:18:51,494 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:19:12,211 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:19:12,212 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:19:12] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:19:42,242 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:19:42,243 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:19:42] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:19:51,498 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:19:51,498 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:20:50,278 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:20:50,279 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:20:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:20:51,500 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:20:51,501 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:21:50,536 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:21:50,537 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:21:50] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 07:21:51,507 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 07:21:51,507 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 07:22:21,629 - proxidize - INFO - Got IP via direct connection: 67.43.48.2
+2025-04-29 07:22:21,631 - werkzeug - INFO - 192.168.108.74 - - [29/Apr/2025 07:22:21] "GET /api/device/status HTTP/1.0" 200 -
+2025-04-29 11:59:38,603 - proxidize - INFO - Loaded configuration from proxidize_config.json
+2025-04-29 11:59:38,607 - proxidize - INFO - Proxidize Manager initialized
+2025-04-29 11:59:38,610 - message_manager - INFO - Message database tables initialized
+2025-04-29 11:59:38,623 - AccountActivityManager - INFO - Account activity monitoring loop started
+2025-04-29 11:59:38,623 - AccountActivityManager - INFO - Account activity worker started
+2025-04-29 11:59:38,623 - AccountActivityManager - INFO - Account activity monitoring started
+2025-04-29 11:59:38,627 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 11:59:38,627 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 11:59:38,806 - AccountActivityManager - INFO - Initializing browser for account activity
+2025-04-29 11:59:38,806 - TextNowAutomation - INFO - Found TextNow APK at E:\work\TextNowMax_Package (1)\TextNowMax_Package\textnow.apk
+2025-04-29 11:59:38,806 - TextNowAutomation - INFO - No device manager provided, will use web automation only
+2025-04-29 11:59:38,807 - Database - INFO - Connected to database: ghost_accounts.db
+2025-04-29 11:59:38,808 - Database - INFO - Database schema initialized
+2025-04-29 11:59:38,808 - Database - INFO - Default settings initialized
+2025-04-29 11:59:38,809 - AccountActivityManager - INFO - Performing maintenance activity for account: janedoe
+2025-04-29 11:59:38,809 - AccountActivityManager - INFO - Performing synchronous web login for janedoe
+2025-04-29 11:59:39,512 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.108.74:5000
+2025-04-29 11:59:39,512 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 11:59:43,810 - AccountActivityManager - INFO - Sending message to (555) 987-6543
+2025-04-29 11:59:45,840 - AccountActivityManager - INFO - Performing synchronous web logout
+2025-04-29 11:59:46,841 - AccountActivityManager - ERROR - Error processing account janedoe: 'id'
+2025-04-29 11:59:51,200 - AccountActivityManager - ERROR - Fatal error in activity worker: 'id'
+2025-04-29 11:59:56,265 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 11:59:56] "GET / HTTP/1.1" 200 -
+2025-04-29 11:59:56,455 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 11:59:56] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 11:59:56,462 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 11:59:56] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 11:59:56,491 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 11:59:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-29 11:59:57,986 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 11:59:57,989 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 11:59:57] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:00,539 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:00] "GET /creator HTTP/1.1" 200 -
+2025-04-29 12:00:00,579 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:00] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:00,581 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:00] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:01,102 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:01] "GET /dashboard HTTP/1.1" 200 -
+2025-04-29 12:00:01,215 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:01] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:01,259 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:01] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:01,468 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:01] "GET /campaigns HTTP/1.1" 200 -
+2025-04-29 12:00:01,504 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:01] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:01,510 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:01] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:02,002 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:02,003 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:02] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:02,209 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:02] "GET /manual-messaging HTTP/1.1" 200 -
+2025-04-29 12:00:02,247 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:02] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:02,252 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:02] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:02,683 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:02] "GET /message-templates HTTP/1.1" 200 -
+2025-04-29 12:00:02,717 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:02] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:02,724 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:02] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:03,084 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:03] "GET /message-dashboard HTTP/1.1" 200 -
+2025-04-29 12:00:03,117 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:03] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:03,133 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:03] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:03,429 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:03,430 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:03] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:03,543 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:03] "GET /media-dashboard HTTP/1.1" 200 -
+2025-04-29 12:00:03,569 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:03] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:03,590 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:03] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:04,187 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:04] "GET /account-health HTTP/1.1" 200 -
+2025-04-29 12:00:04,222 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:04] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:04,277 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:04] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:04,587 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:04] "GET /voicemail-manager HTTP/1.1" 200 -
+2025-04-29 12:00:04,622 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:04] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:04,627 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:04] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:04,876 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:04,877 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:04] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:04,987 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:04] "GET /campaign-schedule HTTP/1.1" 200 -
+2025-04-29 12:00:05,024 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:05] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:05,036 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:05] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:05,284 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:05] "GET /proxy-manager HTTP/1.1" 200 -
+2025-04-29 12:00:05,326 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:05] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:05,347 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:05] "GET /api/proxy/config HTTP/1.1" 200 -
+2025-04-29 12:00:05,349 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:05] "GET /api/proxy/config HTTP/1.1" 200 -
+2025-04-29 12:00:05,350 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:05] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:05,590 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:05] "GET /anti-detection HTTP/1.1" 200 -
+2025-04-29 12:00:05,618 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:05] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:05,635 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:05] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:06,328 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:06,329 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:06] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:06,764 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:06,765 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:06] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:07,077 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:07,078 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:07] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:08,167 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:08] "GET / HTTP/1.1" 200 -
+2025-04-29 12:00:08,205 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:08] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:08,219 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:08] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:08,522 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:08,522 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:08] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:09,967 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:09,968 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:09] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:11,439 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:11,440 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:11] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:13,263 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:13,263 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:13] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:14,683 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:14,684 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:14] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:16,131 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:16,131 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:16] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:17,589 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:17,590 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:17] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:19,044 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:19,045 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:19] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:20,482 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:20,482 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:20] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:22,372 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:22] "GET /creator HTTP/1.1" 200 -
+2025-04-29 12:00:22,404 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:22] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:22,415 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:22] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:23,012 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:23] "GET /dashboard HTTP/1.1" 200 -
+2025-04-29 12:00:23,050 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:23] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:23,054 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:23] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:23,875 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:23,875 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:23] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:25,326 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:25,327 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:25] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:36,403 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:36] "GET /campaigns HTTP/1.1" 200 -
+2025-04-29 12:00:36,433 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:36] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:36,448 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:36] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:37,037 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:37] "GET /manual-messaging HTTP/1.1" 200 -
+2025-04-29 12:00:37,061 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:37] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:37,080 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:37] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:38,388 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:38,389 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:38] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:38,571 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:38] "GET /message-templates HTTP/1.1" 200 -
+2025-04-29 12:00:38,609 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:38] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:38,621 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:38] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:38,629 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 12:00:38,629 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 12:00:39,284 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:39] "GET /message-dashboard HTTP/1.1" 200 -
+2025-04-29 12:00:39,326 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:39] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:39,334 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:39] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:39,794 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:39] "GET /media-dashboard HTTP/1.1" 200 -
+2025-04-29 12:00:39,796 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:39,797 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:39] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:39,835 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:39] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:39,839 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:39] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:40,203 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:40] "GET /account-health HTTP/1.1" 200 -
+2025-04-29 12:00:40,248 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:40] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:40,259 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:40] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:40,531 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:40] "GET /voicemail-manager HTTP/1.1" 200 -
+2025-04-29 12:00:40,566 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:40] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:40,576 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:40] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:40,875 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:40] "GET /campaign-schedule HTTP/1.1" 200 -
+2025-04-29 12:00:40,920 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:40] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:40,991 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:40] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:41,226 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:41] "GET /proxy-manager HTTP/1.1" 200 -
+2025-04-29 12:00:41,240 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:41,241 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:41] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:41,272 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:41] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:41,285 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:41] "GET /api/proxy/config HTTP/1.1" 200 -
+2025-04-29 12:00:41,287 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:41] "GET /api/proxy/config HTTP/1.1" 200 -
+2025-04-29 12:00:41,333 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:41] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:41,507 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:41] "GET /anti-detection HTTP/1.1" 200 -
+2025-04-29 12:00:41,552 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:41] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:41,556 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:41] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:43,536 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:43,537 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:43] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:44,950 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:44,951 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:44] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:46,392 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:46,392 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:46] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:47,813 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:47,814 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:47] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:49,274 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:49,275 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:49] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:49,686 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:49] "GET / HTTP/1.1" 200 -
+2025-04-29 12:00:49,714 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:49] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:00:49,737 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:49] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:00:50,712 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:50,712 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:50] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:52,169 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:52,170 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:52] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:54,280 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:54,280 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:54] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:55,720 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:55,720 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:55] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:00:57,169 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:00:57,169 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:00:57] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:04,692 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:04] "GET /creator HTTP/1.1" 200 -
+2025-04-29 12:01:04,751 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:04] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:04,798 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:04] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:06,222 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:06,223 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:06] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:36,662 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:36,663 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:36] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:36,924 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:36] "GET /dashboard HTTP/1.1" 200 -
+2025-04-29 12:01:36,962 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:36] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:36,975 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:36] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:38,151 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:38] "GET /campaigns HTTP/1.1" 200 -
+2025-04-29 12:01:38,200 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:38] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:38,305 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:38] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:38,395 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:38,396 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:38] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:38,563 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:38] "GET /manual-messaging HTTP/1.1" 200 -
+2025-04-29 12:01:38,600 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:38] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:38,617 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:38] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:38,634 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 12:01:38,636 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 12:01:39,027 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:39] "GET /message-templates HTTP/1.1" 200 -
+2025-04-29 12:01:39,064 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:39] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:39,086 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:39] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:39,415 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:39] "GET /message-dashboard HTTP/1.1" 200 -
+2025-04-29 12:01:39,449 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:39] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:39,473 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:39] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:39,848 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:39,848 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:39] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:41,307 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:41,307 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:41] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:42,752 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:42,753 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:42] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:44,207 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:44,208 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:44] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:45,400 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:45] "GET /media-dashboard HTTP/1.1" 200 -
+2025-04-29 12:01:45,455 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:45] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:45,553 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:45] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:46,962 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:46,962 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:46] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:52,167 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:52] "GET /account-health HTTP/1.1" 200 -
+2025-04-29 12:01:52,194 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:52] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:52,217 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:52] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:54,671 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:54] "GET /voicemail-manager HTTP/1.1" 200 -
+2025-04-29 12:01:54,678 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:54,680 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:54] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:54,720 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:54] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:54,747 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:54] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:55,451 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:55] "GET /campaign-schedule HTTP/1.1" 200 -
+2025-04-29 12:01:55,479 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:55] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:55,495 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:55] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:55,782 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:55] "GET /proxy-manager HTTP/1.1" 200 -
+2025-04-29 12:01:55,823 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:55] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:55,898 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:55] "GET /api/proxy/config HTTP/1.1" 200 -
+2025-04-29 12:01:55,900 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:55] "GET /api/proxy/config HTTP/1.1" 200 -
+2025-04-29 12:01:55,971 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:55] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:56,051 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /anti-detection HTTP/1.1" 200 -
+2025-04-29 12:01:56,151 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:56,163 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:56,163 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:56,198 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:56,408 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /proxy-manager HTTP/1.1" 200 -
+2025-04-29 12:01:56,450 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:56,457 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /api/proxy/config HTTP/1.1" 200 -
+2025-04-29 12:01:56,464 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /api/proxy/config HTTP/1.1" 200 -
+2025-04-29 12:01:56,465 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:56,723 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /campaign-schedule HTTP/1.1" 200 -
+2025-04-29 12:01:56,744 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:56,753 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:56] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:57,015 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:57] "GET /voicemail-manager HTTP/1.1" 200 -
+2025-04-29 12:01:57,051 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:57] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:57,062 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:57] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:57,490 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:57] "GET /account-health HTTP/1.1" 200 -
+2025-04-29 12:01:57,538 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:57] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:57,558 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:57] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:57,593 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:57,594 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:57] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:57,858 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:57] "GET /media-dashboard HTTP/1.1" 200 -
+2025-04-29 12:01:57,896 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:57] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:57,911 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:57] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:58,239 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:58] "GET /message-dashboard HTTP/1.1" 200 -
+2025-04-29 12:01:58,272 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:58] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:58,289 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:58] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:58,564 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:58] "GET /message-templates HTTP/1.1" 200 -
+2025-04-29 12:01:58,604 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:58] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:58,618 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:58] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:58,892 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:58] "GET /manual-messaging HTTP/1.1" 200 -
+2025-04-29 12:01:58,937 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:58] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:59,005 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:59] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:59,078 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:59,079 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:59] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:01:59,174 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:59] "GET /campaigns HTTP/1.1" 200 -
+2025-04-29 12:01:59,216 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:59] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:59,225 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:59] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:59,492 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:59] "GET /dashboard HTTP/1.1" 200 -
+2025-04-29 12:01:59,525 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:59] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:01:59,536 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:59] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:01:59,738 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:01:59,738 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:01:59] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:00,051 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:00,052 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:00] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:00,377 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:00,377 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:00] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:00,428 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:00] "GET / HTTP/1.1" 200 -
+2025-04-29 12:02:00,477 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:00] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:02:00,541 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:00] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:02:00,649 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:00,650 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:00] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:00,969 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:00,970 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:00] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:01,907 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:01,907 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:01] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:03,344 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:03,344 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:03] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:04,793 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:04,793 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:04] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:06,233 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:06,234 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:06] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:08,314 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:08,315 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:08] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:08,589 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:08] "GET /creator HTTP/1.1" 200 -
+2025-04-29 12:02:08,632 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:08] "GET /static/progress_logo.png HTTP/1.1" 200 -
+2025-04-29 12:02:08,638 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:08] "GET /static/progress_background.jpg HTTP/1.1" 200 -
+2025-04-29 12:02:09,756 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:09,757 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:09] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:11,188 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:11,188 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:11] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:12,616 - proxidize - INFO - Got IP via direct connection: 167.88.61.250
+2025-04-29 12:02:12,617 - werkzeug - INFO - 127.0.0.1 - - [29/Apr/2025 12:02:12] "GET /api/device/status HTTP/1.1" 200 -
+2025-04-29 12:02:38,639 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 12:02:38,639 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 12:03:38,640 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 12:03:38,640 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 12:04:38,642 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 12:04:38,642 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 12:05:38,644 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 12:05:38,644 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 12:06:38,646 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 12:06:38,646 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'
+2025-04-29 12:07:38,648 - AccountActivityManager - INFO - Found 2 accounts needing activity
+2025-04-29 12:07:38,648 - AccountActivityManager - ERROR - Error in monitoring loop: 'id'

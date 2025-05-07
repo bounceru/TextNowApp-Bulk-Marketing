@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextNow Max - Account Activity Manager</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        body {
+            background-image: url('/static/progress_background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+        }
+        
+        .content-container {
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .card {
+            background-color: rgba(30, 30, 30, 0.7);
+            border: 1px solid #444;
+            margin-bottom: 20px;
+        }
+        
+        .card-header {
+            background-color: rgba(52, 152, 219, 0.3);
+            color: white;
+            font-weight: 500;
+            border-bottom: 1px solid #444;
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        .nav-tabs {
+            border-bottom: 1px solid #444;
+        }
+        
+        .nav-tabs .nav-link {
+            color: #95a5a6;
+            background-color: transparent;
+            border: none;
+        }
+        
+        .nav-tabs .nav-link:hover {
+            color: white;
+            background-color: rgba(50, 50, 50, 0.5);
+            border-color: transparent;
+        }
+        
+        .nav-tabs .nav-link.active {
+            color: white;
+            background-color: rgba(52, 152, 219, 0.3);
+            border-color: #3498db #3498db transparent;
+        }
+        
+        .table {
+            background-color: rgba(30, 30, 30, 0.7);
+            color: white;
+        }
+        
+        .table thead th {
+            border-bottom: 2px solid #444;
+            border-top: none;
+        }
+        
+        .table td, .table th {
+            border-top: 1px solid #444;
+            vertical-align: middle;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 0.25em 0.6em;
+            font-size: 80%;
+            font-weight: 500;
+            border-radius: 0.25rem;
+        }
+        
+        .status-success {
+            background-color: rgba(46, 204, 113, 0.3);
+            color: #2ecc71;
+        }
+        
+        .status-warning {
+            background-color: rgba(243, 156, 18, 0.3);
+            color: #f39c12;
+        }
+        
+        .status-danger {
+            background-color: rgba(231, 76, 60, 0.3);
+            color: #e74c3c;
+        }
+        
+        .status-info {
+            background-color: rgba(52, 152, 219, 0.3);
+            color: #3498db;
+        }
+        
+        .status-pending {
+            background-color: rgba(149, 165, 166, 0.3);
+            color: #95a5a6;
+        }
+        
+        .stat-card {
+            background-color: rgba(40, 40, 40, 0.7);
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card p {
+            color: #95a5a6;
+            margin-bottom: 0;
+        }
+        
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        
+        .success-value {
+            color: #2ecc71;
+        }
+        
+        .warning-value {
+            color: #f39c12;
+        }
+        
+        .danger-value {
+            color: #e74c3c;
+        }
+        
+        .info-value {
+            color: #3498db;
+        }
+        
+        .btn-primary {
+            background-color: #3498db;
+            border-color: #3498db;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        
+        .btn-success {
+            background-color: #2ecc71;
+            border-color: #2ecc71;
+        }
+        
+        .btn-success:hover {
+            background-color: #27ae60;
+            border-color: #27ae60;
+        }
+        
+        .progress {
+            height: 10px;
+            background-color: rgba(30, 30, 30, 0.7);
+        }
+        
+        .activity-log {
+            height: 400px;
+            overflow-y: auto;
+            background-color: rgba(20, 20, 20, 0.7);
+            border: 1px solid #444;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        
+        .activity-item {
+            padding: 8px;
+            margin-bottom: 8px;
+            border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+        }
+        
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+        
+        .activity-item .time {
+            color: #95a5a6;
+            font-size: 0.8rem;
+        }
+        
+        .activity-success {
+            color: #2ecc71;
+        }
+        
+        .activity-failure {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container content-container">
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <h2><i class="fas fa-redo-alt mr-2"></i> Account Activity Manager</h2>
+                <p>Automated system to keep TextNow accounts active with regular 48-hour logins and actions</p>
+            </div>
+            <div class="col-md-4 text-right">
+                <button id="startBtn" class="btn btn-success" onclick="startActivitySystem()">
+                    <i class="fas fa-play"></i> Start System
+                </button>
+                <button id="stopBtn" class="btn btn-danger ml-2" onclick="stopActivitySystem()" style="display: none;">
+                    <i class="fas fa-stop"></i> Stop System
+                </button>
+            </div>
+        </div>
+        
+        <ul class="nav nav-tabs mb-4" id="activityTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="dashboard-tab" data-toggle="tab" href="#dashboard" role="tab">
+                    <i class="fas fa-chart-line"></i> Dashboard
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="scheduled-tab" data-toggle="tab" href="#scheduled" role="tab">
+                    <i class="fas fa-calendar-alt"></i> Scheduled Activities
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="history-tab" data-toggle="tab" href="#history" role="tab">
+                    <i class="fas fa-history"></i> Activity History
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab">
+                    <i class="fas fa-cog"></i> Settings
+                </a>
+            </li>
+        </ul>
+        
+        <div class="tab-content" id="activityTabContent">
+            <!-- Dashboard Tab -->
+            <div class="tab-pane fade show active" id="dashboard" role="tabpanel">
+                <div class="row mb-4">
+                    <div class="col-md-3">
+                        <div class="stat-card">
+                            <p>Total Activities (7 days)</p>
+                            <div class="stat-value info-value" id="totalActivities">0</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stat-card">
+                            <p>Success Rate</p>
+                            <div class="stat-value" id="successRateValue">0%</div>
+                            <div class="progress mt-2">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 0%" id="successRateBar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stat-card">
+                            <p>Accounts Maintained</p>
+                            <div class="stat-value success-value" id="accountsMaintained">0</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stat-card">
+                            <p>Upcoming Activities</p>
+                            <div class="stat-value warning-value" id="upcomingActivities">0</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-history"></i> Recent Activity Log
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="activity-log" id="activityLog">
+                                    <div class="text-center p-4 text-muted">
+                                        <i class="fas fa-spinner fa-spin fa-2x mb-3"></i>
+                                        <p>Loading activity log...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-5">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-chart-pie"></i> Activity Types
+                            </div>
+                            <div class="card-body">
+                                <canvas id="activityTypesChart" height="200"></canvas>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-calendar-day"></i> Daily Success Rate
+                            </div>
+                            <div class="card-body">
+                                <canvas id="dailySuccessChart" height="200"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scheduled Activities Tab -->
+            <div class="tab-pane fade" id="scheduled" role="tabpanel">
+                <div class="row mb-4">
+                    <div class="col-md-8">
+                        <h4><i class="fas fa-calendar-alt"></i> Upcoming Account Activities</h4>
+                    </div>
+                    <div class="col-md-4 text-right">
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#scheduleModal">
+                            <i class="fas fa-plus"></i> Schedule Activity
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="table-responsive">
+                    <table class="table table-striped" id="scheduledTable">
+                        <thead>
+                            <tr>
+                                <th>Account</th>
+                                <th>Scheduled Time</th>
+                                <th>Activity Type</th>
+                                <th>Priority</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="6" class="text-center">
+                                    <i class="fas fa-spinner fa-spin mr-2"></i> Loading scheduled activities...
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-exclamation-triangle"></i> Accounts Needing Activity Soon
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-sm" id="accountsNeedingActivityTable">
+                                        <thead>
+                                            <tr>
+                                                <th>Account</th>
+                                                <th>Last Activity</th>
+                                                <th>Status</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="4" class="text-center">
+                                                    <i class="fas fa-spinner fa-spin mr-2"></i> Loading...
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-calendar-week"></i> Activity Schedule
+                            </div>
+                            <div class="card-body">
+                                <canvas id="scheduleChart" height="250"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Activity History Tab -->
+            <div class="tab-pane fade" id="history" role="tabpanel">
+                <div class="row mb-4">
+                    <div class="col-md-8">
+                        <h4><i class="fas fa-history"></i> Account Activity History</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-filter"></i></span>
+                                </div>
+                                <select class="form-control" id="historyFilter" onchange="loadActivityHistory()">
+                                    <option value="all">All Activities</option>
+                                    <option value="success">Successful Only</option>
+                                    <option value="failed">Failed Only</option>
+                                    <option value="login">Login Activities</option>
+                                    <option value="message">Message Activities</option>
+                                    <option value="maintenance">Maintenance Activities</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table-responsive">
+                    <table class="table table-striped" id="historyTable">
+                        <thead>
+                            <tr>
+                                <th>Timestamp</th>
+                                <th>Account</th>
+                                <th>Activity Type</th>
+                                <th>Status</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="5" class="text-center">
+                                    <i class="fas fa-spinner fa-spin mr-2"></i> Loading activity history...
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="row mt-4">
+                    <div class="col-md-12">
+                        <nav>
+                            <ul class="pagination justify-content-center" id="historyPagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                </li>
+                                <li class="page-item active">
+                                    <a class="page-link" href="#">1</a>
+                                </li>
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Settings Tab -->
+            <div class="tab-pane fade" id="settings" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-cog"></i> Activity System Settings
+                            </div>
+                            <div class="card-body">
+                                <form id="settingsForm">
+                                    <div class="form-group">
+                                        <label for="checkInterval">Check Interval (hours)</label>
+                                        <input type="number" class="form-control" id="checkInterval" min="1" max="24" value="6">
+                                        <small class="form-text text-muted">How often to check for accounts needing activity</small>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="activityInterval">Activity Interval (hours)</label>
+                                        <input type="number" class="form-control" id="activityInterval" min="24" max="72" value="48">
+                                        <small class="form-text text-muted">How often to perform activity on each account</small>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="randomization">Randomization (hours)</label>
+                                        <input type="number" class="form-control" id="randomization" min="0" max="12" value="4">
+                                        <small class="form-text text-muted">Randomize activity timing by +/- this many hours</small>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label>Activity Types</label>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="loginActivity" checked>
+                                            <label class="custom-control-label" for="loginActivity">Login Activity</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="messageActivity" checked>
+                                            <label class="custom-control-label" for="messageActivity">Self-Message Activity</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="profileActivity" checked>
+                                            <label class="custom-control-label" for="profileActivity">Profile Check Activity</label>
+                                        </div>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-save"></i> Save Settings
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-tasks"></i> System Actions
+                            </div>
+                            <div class="card-body">
+                                <div class="list-group">
+                                    <button class="list-group-item list-group-item-action" onclick="rescheduleAllAccounts()">
+                                        <i class="fas fa-calendar-plus"></i> Reschedule All Accounts
+                                        <small class="d-block text-muted mt-1">Reset the activity schedule for all accounts</small>
+                                    </button>
+                                    
+                                    <button class="list-group-item list-group-item-action" onclick="prioritizeInactiveAccounts()">
+                                        <i class="fas fa-exclamation-circle"></i> Prioritize Inactive Accounts
+                                        <small class="d-block text-muted mt-1">Find and schedule activities for accounts with no recent activity</small>
+                                    </button>
+                                    
+                                    <button class="list-group-item list-group-item-action" onclick="clearFailedActivities()">
+                                        <i class="fas fa-trash-alt"></i> Clear Failed Activities
+                                        <small class="d-block text-muted mt-1">Remove failed activity attempts from the schedule</small>
+                                    </button>
+                                    
+                                    <button class="list-group-item list-group-item-action" onclick="testActivitySystem()">
+                                        <i class="fas fa-vial"></i> Test Activity System
+                                        <small class="d-block text-muted mt-1">Perform a test activity on a selected account</small>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-info-circle"></i> System Status
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <span>System Status:</span>
+                                    <span class="status-badge" id="systemStatus">Checking...</span>
+                                </div>
+                                
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <span>Active Workers:</span>
+                                    <span id="activeWorkers">0</span>
+                                </div>
+                                
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <span>Last Check:</span>
+                                    <span id="lastCheck">Never</span>
+                                </div>
+                                
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <span>Next Check:</span>
+                                    <span id="nextCheck">Unknown</span>
+                                </div>
+                                
+                                <div class="progress mt-3">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 0%" id="nextCheckProgress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Schedule Activity Modal -->
+    <div class="modal fade" id="scheduleModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">Schedule Account Activity</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="scheduleForm">
+                        <div class="form-group">
+                            <label for="accountSelect">Select Account</label>
+                            <select class="form-control" id="accountSelect" required>
+                                <option value="">-- Select an account --</option>
+                                <!-- Accounts will be loaded here -->
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="activityType">Activity Type</label>
+                            <select class="form-control" id="activityType">
+                                <option value="maintenance">Maintenance (Auto-select best activity)</option>
+                                <option value="login">Login Only</option>
+                                <option value="message">Send Self-Message</option>
+                                <option value="profile">Profile Check</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="scheduleTime">Schedule Time</label>
+                            <select class="form-control" id="scheduleTime">
+                                <option value="now">Now</option>
+                                <option value="1">In 1 hour</option>
+                                <option value="6">In 6 hours</option>
+                                <option value="12">In 12 hours</option>
+                                <option value="24">In 24 hours</option>
+                                <option value="custom">Custom time...</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group" id="customTimeGroup" style="display: none;">
+                            <label for="customDateTime">Custom Date & Time</label>
+                            <input type="datetime-local" class="form-control" id="customDateTime">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="priority">Priority</label>
+                            <select class="form-control" id="priority">
+                                <option value="0">Normal (0)</option>
+                                <option value="1">High (1)</option>
+                                <option value="2">Urgent (2)</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="submitScheduleForm()">
+                        Schedule Activity
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Activity Test Modal -->
+    <div class="modal fade" id="testModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">Test Activity System</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="testForm">
+                        <div class="form-group">
+                            <label for="testAccountSelect">Select Account</label>
+                            <select class="form-control" id="testAccountSelect" required>
+                                <option value="">-- Select an account --</option>
+                                <!-- Accounts will be loaded here -->
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="testActivityType">Activity Type</label>
+                            <select class="form-control" id="testActivityType">
+                                <option value="maintenance">Maintenance (Auto-select best activity)</option>
+                                <option value="login">Login Only</option>
+                                <option value="message">Send Self-Message</option>
+                                <option value="profile">Profile Check</option>
+                            </select>
+                        </div>
+                    </form>
+                    
+                    <div id="testResult" class="alert mt-3" style="display: none;"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="runTestBtn" onclick="runActivityTest()">
+                        Run Test
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script>
+        // On page load
+        $(document).ready(function() {
+            // Initial data load
+            checkSystemStatus();
+            loadDashboardData();
+            loadScheduledActivities();
+            loadActivityHistory();
+            loadAccountsForSelect();
+            
+            // Setup charts
+            setupCharts();
+            
+            // Setup event handlers
+            $('#scheduleTime').on('change', function() {
+                if ($(this).val() === 'custom') {
+                    $('#customTimeGroup').show();
+                } else {
+                    $('#customTimeGroup').hide();
+                }
+            });
+            
+            // Setup form submission
+            $('#settingsForm').on('submit', function(e) {
+                e.preventDefault();
+                saveSettings();
+            });
+            
+            // Refresh data periodically
+            setInterval(checkSystemStatus, 30000);  // Every 30 seconds
+            setInterval(loadDashboardData, 60000);  // Every minute
+        });
+        
+        // Function to check system status
+        function checkSystemStatus() {
+            // This would be an AJAX call to your back-end
+            $.ajax({
+                url: '/api/account-activity/status',
+                method: 'GET',
+                success: function(data) {
+                    // Update status display
+                    updateSystemStatus(data);
+                },
+                error: function() {
+                    // Show error state
+                    $('#systemStatus').text('Error').removeClass().addClass('status-badge status-danger');
+                }
+            });
+        }
+        
+        // Update system status indicators
+        function updateSystemStatus(data) {
+            // Update status badge
+            const statusEl = $('#systemStatus');
+            statusEl.text(data.running ? 'Running' : 'Stopped');
+            
+            if (data.running) {
+                statusEl.removeClass().addClass('status-badge status-success');
+                $('#startBtn').hide();
+                $('#stopBtn').show();
+            } else {
+                statusEl.removeClass().addClass('status-badge status-danger');
+                $('#startBtn').show();
+                $('#stopBtn').hide();
+            }
+            
+            // Update other status indicators
+            $('#activeWorkers').text(data.active_workers || 0);
+            $('#lastCheck').text(data.last_check || 'Never');
+            $('#nextCheck').text(data.next_check || 'Unknown');
+            
+            // Update progress bar
+            if (data.progress_percent) {
+                $('#nextCheckProgress').css('width', data.progress_percent + '%');
+            } else {
+                $('#nextCheckProgress').css('width', '0%');
+            }
+        }
+        
+        // Load dashboard data
+        function loadDashboardData() {
+            $.ajax({
+                url: '/api/account-activity/statistics',
+                method: 'GET',
+                success: function(data) {
+                    // Update statistics
+                    $('#totalActivities').text(data.total_activities || 0);
+                    
+                    const successRate = data.success_rate || 0;
+                    $('#successRateValue').text(successRate.toFixed(1) + '%');
+                    $('#successRateBar').css('width', successRate + '%');
+                    
+                    $('#accountsMaintained').text(data.successful_activities || 0);
+                    $('#upcomingActivities').text(data.upcoming_scheduled || 0);
+                    
+                    // Update activity log
+                    updateActivityLog(data.recent_activities || []);
+                    
+                    // Update charts
+                    updateActivityTypeChart(data.by_activity_type || []);
+                    updateDailySuccessChart(data.daily_success || []);
+                },
+                error: function() {
+                    console.error("Failed to load dashboard data");
+                }
+            });
+        }
+        
+        // Update activity log display
+        function updateActivityLog(activities) {
+            const logEl = $('#activityLog');
+            
+            if (!activities.length) {
+                logEl.html('<div class="text-center p-4 text-muted">No activities recorded yet</div>');
+                return;
+            }
+            
+            let html = '';
+            activities.forEach(activity => {
+                html += `
+                <div class="activity-item">
+                    <div class="float-right time">${formatDate(activity.activity_time)}</div>
+                    <div>
+                        ${activity.success 
+                            ? '<i class="fas fa-check-circle activity-success mr-1"></i>' 
+                            : '<i class="fas fa-times-circle activity-failure mr-1"></i>'}
+                        <strong>${activity.username}</strong>: 
+                        ${activity.activity_type.replace('_', ' ')}
+                    </div>
+                    <div class="small text-muted">
+                        ${activity.details || 'No details'}
+                    </div>
+                </div>
+                `;
+            });
+            
+            logEl.html(html);
+        }
+        
+        // Load scheduled activities
+        function loadScheduledActivities() {
+            $.ajax({
+                url: '/api/account-activity/scheduled',
+                method: 'GET',
+                success: function(data) {
+                    updateScheduledTable(data.scheduled || []);
+                    updateAccountsNeedingActivityTable(data.needing_activity || []);
+                    updateScheduleChart(data.schedule_data || {});
+                },
+                error: function() {
+                    console.error("Failed to load scheduled activities");
+                }
+            });
+        }
+        
+        // Update scheduled activities table
+        function updateScheduledTable(activities) {
+            const tableEl = $('#scheduledTable tbody');
+            
+            if (!activities.length) {
+                tableEl.html('<tr><td colspan="6" class="text-center">No scheduled activities</td></tr>');
+                return;
+            }
+            
+            let html = '';
+            activities.forEach(activity => {
+                html += `
+                <tr>
+                    <td>
+                        ${activity.username}
+                        <div class="small text-muted">${activity.phone_number || 'No phone'}</div>
+                    </td>
+                    <td>${formatDate(activity.next_activity_time)}</td>
+                    <td>${activity.activity_type.replace('_', ' ')}</td>
+                    <td>${getPriorityBadge(activity.priority)}</td>
+                    <td>${getStatusBadge(activity.status)}</td>
+                    <td>
+                        <button class="btn btn-sm btn-info" onclick="runNow(${activity.id})">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button class="btn btn-sm btn-danger" onclick="cancelActivity(${activity.id})">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </td>
+                </tr>
+                `;
+            });
+            
+            tableEl.html(html);
+        }
+        
+        // Update accounts needing activity table
+        function updateAccountsNeedingActivityTable(accounts) {
+            const tableEl = $('#accountsNeedingActivityTable tbody');
+            
+            if (!accounts.length) {
+                tableEl.html('<tr><td colspan="4" class="text-center">No accounts needing activity</td></tr>');
+                return;
+            }
+            
+            let html = '';
+            accounts.forEach(account => {
+                html += `
+                <tr>
+                    <td>
+                        ${account.username}
+                        <div class="small text-muted">${account.phone_number || 'No phone'}</div>
+                    </td>
+                    <td>${formatDate(account.last_activity)}</td>
+                    <td>${getStatusBadge(account.status)}</td>
+                    <td>
+                        <button class="btn btn-sm btn-success" onclick="scheduleNow(${account.id})">
+                            Schedule
+                        </button>
+                    </td>
+                </tr>
+                `;
+            });
+            
+            tableEl.html(html);
+        }
+        
+        // Load activity history
+        function loadActivityHistory(page = 1, filter = null) {
+            filter = filter || $('#historyFilter').val();
+            
+            $.ajax({
+                url: `/api/account-activity/history?page=${page}&filter=${filter}`,
+                method: 'GET',
+                success: function(data) {
+                    updateHistoryTable(data.activities || []);
+                    updateHistoryPagination(data.pagination || {});
+                },
+                error: function() {
+                    console.error("Failed to load activity history");
+                }
+            });
+        }
+        
+        // Update activity history table
+        function updateHistoryTable(activities) {
+            const tableEl = $('#historyTable tbody');
+            
+            if (!activities.length) {
+                tableEl.html('<tr><td colspan="5" class="text-center">No activity history found</td></tr>');
+                return;
+            }
+            
+            let html = '';
+            activities.forEach(activity => {
+                html += `
+                <tr>
+                    <td>${formatDate(activity.activity_time)}</td>
+                    <td>
+                        ${activity.username}
+                        <div class="small text-muted">${activity.phone_number || 'No phone'}</div>
+                    </td>
+                    <td>${activity.activity_type.replace('_', ' ')}</td>
+                    <td>
+                        ${activity.success 
+                            ? '<span class="status-badge status-success">Success</span>' 
+                            : '<span class="status-badge status-danger">Failed</span>'}
+                    </td>
+                    <td>${activity.details || 'No details'}</td>
+                </tr>
+                `;
+            });
+            
+            tableEl.html(html);
+        }
+        
+        // Update history pagination
+        function updateHistoryPagination(pagination) {
+            const paginationEl = $('#historyPagination');
+            
+            if (!pagination.total_pages || pagination.total_pages <= 1) {
+                paginationEl.hide();
+                return;
+            }
+            
+            paginationEl.show();
+            
+            let html = '';
+            
+            // Previous button
+            html += `
+            <li class="page-item ${pagination.current_page <= 1 ? 'disabled' : ''}">
+                <a class="page-link" href="#" onclick="loadActivityHistory(${pagination.current_page - 1}); return false;">Previous</a>
+            </li>
+            `;
+            
+            // Page numbers
+            const startPage = Math.max(1, pagination.current_page - 2);
+            const endPage = Math.min(pagination.total_pages, pagination.current_page + 2);
+            
+            for (let i = startPage; i <= endPage; i++) {
+                html += `
+                <li class="page-item ${i === pagination.current_page ? 'active' : ''}">
+                    <a class="page-link" href="#" onclick="loadActivityHistory(${i}); return false;">${i}</a>
+                </li>
+                `;
+            }
+            
+            // Next button
+            html += `
+            <li class="page-item ${pagination.current_page >= pagination.total_pages ? 'disabled' : ''}">
+                <a class="page-link" href="#" onclick="loadActivityHistory(${pagination.current_page + 1}); return false;">Next</a>
+            </li>
+            `;
+            
+            paginationEl.html(html);
+        }
+        
+        // Load accounts for select dropdowns
+        function loadAccountsForSelect() {
+            $.ajax({
+                url: '/api/accounts?limit=100',
+                method: 'GET',
+                success: function(data) {
+                    updateAccountSelects(data.accounts || []);
+                },
+                error: function() {
+                    console.error("Failed to load accounts");
+                }
+            });
+        }
+        
+        // Update account select dropdowns
+        function updateAccountSelects(accounts) {
+            const mainSelect = $('#accountSelect');
+            const testSelect = $('#testAccountSelect');
+            
+            if (!accounts.length) {
+                const option = '<option value="">No accounts available</option>';
+                mainSelect.html(option);
+                testSelect.html(option);
+                return;
+            }
+            
+            let options = '<option value="">-- Select an account --</option>';
+            accounts.forEach(account => {
+                const label = `${account.username} (${account.phone_number || 'No phone'})`;
+                options += `<option value="${account.id}">${label}</option>`;
+            });
+            
+            mainSelect.html(options);
+            testSelect.html(options);
+        }
+        
+        // Setup charts
+        function setupCharts() {
+            // Activity types chart (placeholder)
+            const activityTypesCtx = document.getElementById('activityTypesChart').getContext('2d');
+            window.activityTypesChart = new Chart(activityTypesCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Loading...'],
+                    datasets: [{
+                        data: [1],
+                        backgroundColor: ['#95a5a6']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    legend: {
+                        position: 'right',
+                        labels: { fontColor: 'white' }
+                    },
+                    title: {
+                        display: false
+                    }
+                }
+            });
+            
+            // Daily success chart (placeholder)
+            const dailySuccessCtx = document.getElementById('dailySuccessChart').getContext('2d');
+            window.dailySuccessChart = new Chart(dailySuccessCtx, {
+                type: 'line',
+                data: {
+                    labels: ['Loading...'],
+                    datasets: [{
+                        label: 'Success Rate',
+                        data: [0],
+                        backgroundColor: 'rgba(46, 204, 113, 0.2)',
+                        borderColor: '#2ecc71',
+                        borderWidth: 2,
+                        pointBackgroundColor: '#2ecc71'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        xAxes: [{
+                            ticks: { fontColor: '#95a5a6' },
+                            gridLines: { color: 'rgba(100, 100, 100, 0.2)' }
+                        }],
+                        yAxes: [{
+                            ticks: { 
+                                fontColor: '#95a5a6',
+                                min: 0,
+                                max: 100,
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            },
+                            gridLines: { color: 'rgba(100, 100, 100, 0.2)' }
+                        }]
+                    },
+                    legend: {
+                        labels: { fontColor: 'white' }
+                    }
+                }
+            });
+            
+            // Schedule chart (placeholder)
+            const scheduleCtx = document.getElementById('scheduleChart').getContext('2d');
+            window.scheduleChart = new Chart(scheduleCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Loading...'],
+                    datasets: [{
+                        label: 'Scheduled Activities',
+                        data: [0],
+                        backgroundColor: '#3498db'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        xAxes: [{
+                            ticks: { fontColor: '#95a5a6' },
+                            gridLines: { color: 'rgba(100, 100, 100, 0.2)' }
+                        }],
+                        yAxes: [{
+                            ticks: { fontColor: '#95a5a6' },
+                            gridLines: { color: 'rgba(100, 100, 100, 0.2)' }
+                        }]
+                    },
+                    legend: {
+                        labels: { fontColor: 'white' }
+                    }
+                }
+            });
+        }
+        
+        // Update activity types chart
+        function updateActivityTypeChart(activityTypes) {
+            if (!activityTypes.length) {
+                activityTypes = [{ activity_type: 'No Data', count: 1 }];
+            }
+            
+            const labels = activityTypes.map(item => item.activity_type.replace('_', ' '));
+            const data = activityTypes.map(item => item.count);
+            const colors = activityTypes.map((_, i) => getChartColor(i));
+            
+            window.activityTypesChart.data.labels = labels;
+            window.activityTypesChart.data.datasets[0].data = data;
+            window.activityTypesChart.data.datasets[0].backgroundColor = colors;
+            window.activityTypesChart.update();
+        }
+        
+        // Update daily success chart
+        function updateDailySuccessChart(dailyData) {
+            if (!dailyData || !dailyData.length) {
+                // Generate empty placeholder data for the last 7 days
+                dailyData = [];
+                for (let i = 6; i >= 0; i--) {
+                    const date = new Date();
+                    date.setDate(date.getDate() - i);
+                    dailyData.push({
+                        date: formatShortDate(date),
+                        success_rate: 0
+                    });
+                }
+            }
+            
+            const labels = dailyData.map(item => item.date);
+            const data = dailyData.map(item => item.success_rate);
+            
+            window.dailySuccessChart.data.labels = labels;
+            window.dailySuccessChart.data.datasets[0].data = data;
+            window.dailySuccessChart.update();
+        }
+        
+        // Update schedule chart
+        function updateScheduleChart(scheduleData) {
+            if (!scheduleData || !Object.keys(scheduleData).length) {
+                // Generate empty placeholder data
+                scheduleData = {};
+                for (let i = 0; i < 24; i += 4) {
+                    scheduleData[`${i}-${i+4}`] = 0;
+                }
+            }
+            
+            const labels = Object.keys(scheduleData);
+            const data = Object.values(scheduleData);
+            
+            window.scheduleChart.data.labels = labels;
+            window.scheduleChart.data.datasets[0].data = data;
+            window.scheduleChart.update();
+        }
+        
+        // Start the activity system
+        function startActivitySystem() {
+            $.ajax({
+                url: '/api/account-activity/start',
+                method: 'POST',
+                success: function() {
+                    checkSystemStatus();
+                },
+                error: function() {
+                    alert("Failed to start the activity system");
+                }
+            });
+        }
+        
+        // Stop the activity system
+        function stopActivitySystem() {
+            $.ajax({
+                url: '/api/account-activity/stop',
+                method: 'POST',
+                success: function() {
+                    checkSystemStatus();
+                },
+                error: function() {
+                    alert("Failed to stop the activity system");
+                }
+            });
+        }
+        
+        // Submit schedule form
+        function submitScheduleForm() {
+            const accountId = $('#accountSelect').val();
+            if (!accountId) {
+                alert("Please select an account");
+                return;
+            }
+            
+            const activityType = $('#activityType').val();
+            const scheduleTime = $('#scheduleTime').val();
+            const priority = $('#priority').val();
+            
+            let delayHours = 0;
+            if (scheduleTime === 'custom') {
+                const customDateTime = $('#customDateTime').val();
+                if (!customDateTime) {
+                    alert("Please select a custom date and time");
+                    return;
+                }
+                
+                // Calculate hours from now
+                const selectedDate = new Date(customDateTime);
+                const now = new Date();
+                delayHours = (selectedDate - now) / (1000 * 60 * 60);
+                
+                if (delayHours < 0) {
+                    alert("Cannot schedule in the past");
+                    return;
+                }
+            } else if (scheduleTime !== 'now') {
+                delayHours = parseInt(scheduleTime);
+            }
+            
+            $.ajax({
+                url: '/api/account-activity/schedule',
+                method: 'POST',
+                data: {
+                    account_id: accountId,
+                    activity_type: activityType,
+                    delay_hours: delayHours,
+                    priority: priority
+                },
+                success: function() {
+                    $('#scheduleModal').modal('hide');
+                    loadScheduledActivities();
+                },
+                error: function() {
+                    alert("Failed to schedule activity");
+                }
+            });
+        }
+        
+        // Run an activity immediately
+        function runNow(scheduleId) {
+            $.ajax({
+                url: `/api/account-activity/run-now/${scheduleId}`,
+                method: 'POST',
+                success: function() {
+                    loadScheduledActivities();
+                },
+                error: function() {
+                    alert("Failed to run activity");
+                }
+            });
+        }
+        
+        // Cancel a scheduled activity
+        function cancelActivity(scheduleId) {
+            if (!confirm("Are you sure you want to cancel this scheduled activity?")) {
+                return;
+            }
+            
+            $.ajax({
+                url: `/api/account-activity/cancel/${scheduleId}`,
+                method: 'POST',
+                success: function() {
+                    loadScheduledActivities();
+                },
+                error: function() {
+                    alert("Failed to cancel activity");
+                }
+            });
+        }
+        
+        // Schedule an account for immediate activity
+        function scheduleNow(accountId) {
+            $.ajax({
+                url: '/api/account-activity/schedule',
+                method: 'POST',
+                data: {
+                    account_id: accountId,
+                    activity_type: 'maintenance',
+                    delay_hours: 0,
+                    priority: 1
+                },
+                success: function() {
+                    loadScheduledActivities();
+                },
+                error: function() {
+                    alert("Failed to schedule activity");
+                }
+            });
+        }
+        
+        // Save settings
+        function saveSettings() {
+            const settings = {
+                check_interval: $('#checkInterval').val(),
+                activity_interval: $('#activityInterval').val(),
+                randomization: $('#randomization').val(),
+                enabled_activities: {
+                    login: $('#loginActivity').is(':checked'),
+                    message: $('#messageActivity').is(':checked'),
+                    profile: $('#profileActivity').is(':checked')
+                }
+            };
+            
+            $.ajax({
+                url: '/api/account-activity/settings',
+                method: 'POST',
+                data: JSON.stringify(settings),
+                contentType: 'application/json',
+                success: function() {
+                    alert("Settings saved successfully");
+                },
+                error: function() {
+                    alert("Failed to save settings");
+                }
+            });
+        }
+        
+        // Reschedule all accounts
+        function rescheduleAllAccounts() {
+            if (!confirm("Are you sure you want to reschedule all accounts? This will reset the activity schedule.")) {
+                return;
+            }
+            
+            $.ajax({
+                url: '/api/account-activity/reschedule-all',
+                method: 'POST',
+                success: function() {
+                    alert("All accounts have been rescheduled");
+                    loadScheduledActivities();
+                },
+                error: function() {
+                    alert("Failed to reschedule accounts");
+                }
+            });
+        }
+        
+        // Prioritize inactive accounts
+        function prioritizeInactiveAccounts() {
+            $.ajax({
+                url: '/api/account-activity/prioritize-inactive',
+                method: 'POST',
+                success: function() {
+                    alert("Inactive accounts have been prioritized");
+                    loadScheduledActivities();
+                },
+                error: function() {
+                    alert("Failed to prioritize inactive accounts");
+                }
+            });
+        }
+        
+        // Clear failed activities
+        function clearFailedActivities() {
+            $.ajax({
+                url: '/api/account-activity/clear-failed',
+                method: 'POST',
+                success: function() {
+                    alert("Failed activities have been cleared");
+                    loadScheduledActivities();
+                },
+                error: function() {
+                    alert("Failed to clear failed activities");
+                }
+            });
+        }
+        
+        // Test activity system
+        function testActivitySystem() {
+            // Reset the test form and show the modal
+            $('#testForm')[0].reset();
+            $('#testResult').hide();
+            $('#testModal').modal('show');
+        }
+        
+        // Run activity test
+        function runActivityTest() {
+            const accountId = $('#testAccountSelect').val();
+            if (!accountId) {
+                alert("Please select an account");
+                return;
+            }
+            
+            const activityType = $('#testActivityType').val();
+            
+            // Disable button and show loading
+            $('#runTestBtn').prop('disabled', true).html('<i class="fas fa-spinner fa-spin"></i> Running...');
+            
+            $.ajax({
+                url: '/api/account-activity/test',
+                method: 'POST',
+                data: {
+                    account_id: accountId,
+                    activity_type: activityType
+                },
+                success: function(data) {
+                    // Show result
+                    if (data.success) {
+                        $('#testResult')
+                            .removeClass('alert-danger')
+                            .addClass('alert-success')
+                            .html(`<i class="fas fa-check-circle"></i> ${data.message}`)
+                            .show();
+                    } else {
+                        $('#testResult')
+                            .removeClass('alert-success')
+                            .addClass('alert-danger')
+                            .html(`<i class="fas fa-times-circle"></i> ${data.error}`)
+                            .show();
+                    }
+                },
+                error: function() {
+                    $('#testResult')
+                        .removeClass('alert-success')
+                        .addClass('alert-danger')
+                        .html('<i class="fas fa-times-circle"></i> Failed to run test')
+                        .show();
+                },
+                complete: function() {
+                    // Re-enable button
+                    $('#runTestBtn').prop('disabled', false).html('Run Test');
+                }
+            });
+        }
+        
+        // Helper function to format dates
+        function formatDate(dateStr) {
+            if (!dateStr) return 'N/A';
+            
+            const date = new Date(dateStr);
+            return date.toLocaleString();
+        }
+        
+        // Helper function to format short dates (for charts)
+        function formatShortDate(date) {
+            const options = { month: 'short', day: 'numeric' };
+            return date.toLocaleDateString(undefined, options);
+        }
+        
+        // Helper function to get priority badge
+        function getPriorityBadge(priority) {
+            const priorityInt = parseInt(priority) || 0;
+            
+            if (priorityInt === 0) {
+                return '<span class="status-badge status-info">Normal</span>';
+            } else if (priorityInt === 1) {
+                return '<span class="status-badge status-warning">High</span>';
+            } else {
+                return '<span class="status-badge status-danger">Urgent</span>';
+            }
+        }
+        
+        // Helper function to get status badge
+        function getStatusBadge(status) {
+            if (!status) return '';
+            
+            switch (status.toLowerCase()) {
+                case 'pending':
+                    return '<span class="status-badge status-info">Pending</span>';
+                case 'in_progress':
+                    return '<span class="status-badge status-warning">In Progress</span>';
+                case 'completed':
+                    return '<span class="status-badge status-success">Completed</span>';
+                case 'failed':
+                    return '<span class="status-badge status-danger">Failed</span>';
+                case 'cancelled':
+                    return '<span class="status-badge status-pending">Cancelled</span>';
+                default:
+                    return '<span class="status-badge">' + status + '</span>';
+            }
+        }
+        
+        // Helper function to get chart colors
+        function getChartColor(index) {
+            const colors = [
+                '#3498db', '#2ecc71', '#f39c12', '#e74c3c', '#9b59b6',
+                '#1abc9c', '#d35400', '#2c3e50', '#27ae60', '#c0392b'
+            ];
+            
+            return colors[index % colors.length];
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+    "http_proxy": "nae2.proxi.es:2148",
+    "socks_proxy": "nae2.proxi.es:2149",
+    "proxy_username": "proxidize-4XauY",
+    "proxy_password": "4mhm9",
+    "rotation_url": "https://api.proxidize.com/api/v1/modem-token-command/rotate-modem-ip/c0e684189bcd2697f0831fb47759e005/",
+    "last_rotation": 1745880221,
+    "rotation_count": 58,
+    "status": "connected"
+}
